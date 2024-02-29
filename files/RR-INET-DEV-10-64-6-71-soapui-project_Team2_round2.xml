@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project activeEnvironment="Default" name="RR-INET-DEV-10.64.29.239" resourceRoot="" soapui-version="4.5.1" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="RetiringRoomServicesBinding" type="wsdl" bindingName="{http://ws.rr.cris.com/}RetiringRoomServicesBinding" soapVersion="1_1" anonymous="optional" definition="http://10.64.6.71:8080/rrws/RetiringRoomServices?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://10.64.6.71:8080/rrws/RetiringRoomServices?wsdl"><con:part><con:url>http://10.64.6.71:8080/rrws/RetiringRoomServices?wsdl</con:url><con:content><![CDATA[<definitions name="RetiringRoomServicesService" targetNamespace="http://ws.rr.cris.com/" xmlns="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://ws.rr.cris.com/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <types>
+    <xs:schema targetNamespace="http://ws.rr.cris.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:complexType name="statusRequest">
+        <xs:sequence/>
+      </xs:complexType>
+      <xs:complexType name="serviceAck">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="status" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="AvailabilityRequest">
+        <xs:sequence>
+          <xs:element name="acStatus" type="tns:acstatus"/>
+          <xs:element name="bedType" type="tns:bedtype"/>
+          <xs:element minOccurs="0" name="bookingType" type="xs:string"/>
+          <xs:element name="checkInStartTime" nillable="true" type="xs:string"/>
+          <xs:element name="checkInTime" type="xs:dateTime"/>
+          <xs:element name="checkOutEndTime" nillable="true" type="xs:string"/>
+          <xs:element name="checkOutTime" type="xs:dateTime"/>
+          <xs:element name="quota" type="tns:quota"/>
+          <xs:element name="reservationSourceStation" type="xs:string"/>
+          <xs:element name="travelAuthority" type="tns:travelauthority"/>
+          <xs:element name="travelAuthorityNumber" type="xs:string"/>
+          <xs:element name="upgradeStatus" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="availabilityResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="responseDescription" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="roomDetailList" nillable="true" type="tns:RoomDetail"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="roomHourlyDetailList" nillable="true" type="tns:RoomHourlyDetail"/>
+          <xs:element minOccurs="0" name="serviceResponse" type="tns:serviceresponse"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RoomDetail">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="acStatus" type="tns:acstatus"/>
+          <xs:element minOccurs="0" name="bedType" type="tns:bedtype"/>
+          <xs:element minOccurs="0" name="roomAmenities" type="xs:string"/>
+          <xs:element name="roomNo" type="xs:string"/>
+          <xs:element minOccurs="0" name="roomStatus" type="xs:string"/>
+          <xs:element minOccurs="0" name="roomType" type="tns:roomtype"/>
+          <xs:element maxOccurs="unbounded" name="slotTarrifList" type="tns:SlotTarrif"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SlotTarrif">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="cgstTaxAmnt" type="xs:double"/>
+          <xs:element name="checkInTime" type="xs:dateTime"/>
+          <xs:element name="checkInTime24Hrs" type="xs:string"/>
+          <xs:element name="checkOutTime" type="xs:dateTime"/>
+          <xs:element name="checkOutTime24Hrs" type="xs:string"/>
+          <xs:element minOccurs="0" name="igstTaxAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundAmount" type="xs:double"/>
+          <xs:element minOccurs="0" name="serviceTax" type="xs:double"/>
+          <xs:element minOccurs="0" name="sgstTaxAmnt" type="xs:double"/>
+          <xs:element name="slotDuration" type="xs:int"/>
+          <xs:element name="tarrifRate" type="xs:double"/>
+          <xs:element minOccurs="0" name="totalGstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="ugstTaxAmnt" type="xs:double"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="RoomHourlyDetail">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="acStatus" type="tns:acstatus"/>
+          <xs:element name="baseTariff" type="xs:double"/>
+          <xs:element minOccurs="0" name="bedType" type="tns:bedtype"/>
+          <xs:element minOccurs="0" name="cgstTaxAmnt" type="xs:double"/>
+          <xs:element name="checkInTime" type="xs:dateTime"/>
+          <xs:element name="checkOutTime" type="xs:dateTime"/>
+          <xs:element name="duration" type="xs:int"/>
+          <xs:element minOccurs="0" name="igstTaxAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundAmount" type="xs:double"/>
+          <xs:element minOccurs="0" name="roomAmenities" type="xs:string"/>
+          <xs:element name="roomNo" type="xs:string"/>
+          <xs:element minOccurs="0" name="roomStatus" type="xs:string"/>
+          <xs:element minOccurs="0" name="roomType" type="tns:roomtype"/>
+          <xs:element minOccurs="0" name="serviceTax" type="xs:double"/>
+          <xs:element minOccurs="0" name="sgstTaxAmnt" type="xs:double"/>
+          <xs:element name="tariffRate" type="xs:double"/>
+          <xs:element minOccurs="0" name="totalGstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="ugstTaxAmnt" type="xs:double"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ReservationRequest">
+        <xs:sequence>
+          <xs:element name="acStatus" type="tns:acstatus"/>
+          <xs:element name="agentId" type="xs:int"/>
+          <xs:element name="bedType" type="tns:bedtype"/>
+          <xs:element minOccurs="0" name="bookingReferenceNumber" type="xs:string"/>
+          <xs:element name="checkInDateTime" type="xs:dateTime"/>
+          <xs:element name="checkOutDateTime" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="gstnDetails" nillable="true" type="tns:GSTNDetails"/>
+          <xs:element maxOccurs="unbounded" name="guestDetailsList" type="tns:GuestDetail"/>
+          <xs:element name="guestInfo" type="tns:GuestInfo"/>
+          <xs:element name="numberOfAdults" type="xs:int"/>
+          <xs:element name="quota" type="tns:quota"/>
+          <xs:element name="reservationStation" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" name="roomDetailList" type="tns:RoomDetail"/>
+          <xs:element minOccurs="0" name="taxInvoiceNo" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="totalAmount" type="xs:double"/>
+          <xs:element name="transactionID" type="xs:string"/>
+          <xs:element name="travelAuthority" type="tns:travelauthority"/>
+          <xs:element name="travelAuthorityNumber" type="xs:string"/>
+          <xs:element name="upgradedTransactionID" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GSTNDetails">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="passengerGstnDetails" nillable="true" type="tns:PassengerGstnDetail"/>
+          <xs:element name="passengerOrSupplierGst" type="xs:string"/>
+          <xs:element name="supplierGstnDetails" type="tns:SupplierGstnDetail"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="PassengerGstnDetail">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="passengerAddress" type="xs:string"/>
+          <xs:element name="passengerGstnNumber" type="xs:string"/>
+          <xs:element name="passengerName" type="xs:string"/>
+          <xs:element minOccurs="0" name="passengerState" type="xs:string"/>
+          <xs:element minOccurs="0" name="passengerZone" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="SupplierGstnDetail">
+        <xs:sequence>
+          <xs:element default="Indian Railways" name="supplierAddress" type="xs:string"/>
+          <xs:element name="supplierGstnNumber" type="xs:string"/>
+          <xs:element default="Indian Railways" name="supplierName" type="xs:string"/>
+          <xs:element name="supplierStateCode" type="xs:string"/>
+          <xs:element name="supplierZoneCode" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GuestDetail">
+        <xs:sequence>
+          <xs:element name="age" type="xs:int"/>
+          <xs:element name="name" type="xs:string"/>
+          <xs:element minOccurs="0" name="pnrStatus" type="xs:string"/>
+          <xs:element name="roomNumber" type="xs:string"/>
+          <xs:element name="sex" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="GuestInfo">
+        <xs:sequence>
+          <xs:element name="contactNumber" type="xs:string"/>
+          <xs:element minOccurs="0" name="email" nillable="true" type="xs:string"/>
+          <xs:element name="idNumber" type="xs:string"/>
+          <xs:element name="identityProof" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="reservationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="gstnDetails" type="tns:GSTNDetails"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="guestDetails" nillable="true" type="tns:GuestDetail"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="guestinfoMapList" nillable="true" type="tns:guestinfoMap"/>
+          <xs:element minOccurs="0" name="responseDescription" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="roomDetailList" nillable="true" type="tns:RoomDetail"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="roomHourlyDetailList" nillable="true" type="tns:RoomHourlyDetail"/>
+          <xs:element minOccurs="0" name="serviceResponse" type="tns:serviceresponse"/>
+          <xs:element minOccurs="0" name="taxInvoiceNo" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="guestinfoMap">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="age" type="xs:int"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="name" type="xs:string"/>
+              <xs:element minOccurs="0" name="pnrNumber" type="xs:string"/>
+              <xs:element minOccurs="0" name="retiringroomBookingReservation" type="tns:retiringroomBookingReservation"/>
+              <xs:element minOccurs="0" name="retiringroomGuestinfo" type="tns:retiringroomGuestinfo"/>
+              <xs:element minOccurs="0" name="roomNumber" type="xs:string"/>
+              <xs:element minOccurs="0" name="roomType" type="xs:string"/>
+              <xs:element minOccurs="0" name="sex" type="xs:string"/>
+              <xs:element minOccurs="0" name="station" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType abstract="true" name="crisModel">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="createdBy" type="xs:int"/>
+          <xs:element minOccurs="0" name="createdTs" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="fromDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="lastModifiedBy" type="xs:int"/>
+          <xs:element minOccurs="0" name="lastModifiedTs" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="toDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="version" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="retiringroomBookingReservation">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="actualAmount" type="xs:double"/>
+              <xs:element minOccurs="0" name="agentId" type="xs:int"/>
+              <xs:element minOccurs="0" name="bokQuota" type="xs:string"/>
+              <xs:element minOccurs="0" name="bookingType" type="xs:unsignedShort"/>
+              <xs:element name="cancelFlag" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="cancellationDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="cashLessQuota" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="checkIn" type="xs:string"/>
+              <xs:element minOccurs="0" name="checkoutFlag" type="xs:string"/>
+              <xs:element minOccurs="0" name="dateOfBooking" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="destStation" type="xs:string"/>
+              <xs:element name="discountFlag" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="gstFlag" type="xs:boolean"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="guests" nillable="true" type="tns:guestinfoMap"/>
+              <xs:element minOccurs="0" name="hqVipQuotaIdentity" type="xs:string"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="modeOfBooking" type="xs:string"/>
+              <xs:element minOccurs="0" name="mpId" type="xs:string"/>
+              <xs:element minOccurs="0" name="passNumber" type="xs:string"/>
+              <xs:element minOccurs="0" name="pnrNbr" type="xs:string"/>
+              <xs:element minOccurs="0" name="reasonForBkng" type="xs:string"/>
+              <xs:element minOccurs="0" name="referenceNo" type="xs:string"/>
+              <xs:element minOccurs="0" name="releaseReason" type="xs:string"/>
+              <xs:element minOccurs="0" name="reservationDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="reservationStation" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringRoomSlotMapSet" nillable="true" type="tns:retiringRoomSlotMap"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomBookingTxns" nillable="true" type="tns:retiringroomBookingTxn"/>
+              <xs:element minOccurs="0" name="retiringroomGuestinfo" type="tns:retiringroomGuestinfo"/>
+              <xs:element minOccurs="0" name="serviceTax" type="xs:double"/>
+              <xs:element minOccurs="0" name="srcChkOutDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="srcDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="srcStation" type="xs:string"/>
+              <xs:element minOccurs="0" name="stockNo" type="xs:string"/>
+              <xs:element minOccurs="0" name="terminalLocation" type="xs:string"/>
+              <xs:element minOccurs="0" name="totalAmount" type="xs:double"/>
+              <xs:element minOccurs="0" name="totalGstAmnt" type="xs:double"/>
+              <xs:element minOccurs="0" name="transactionID" type="xs:string"/>
+              <xs:element minOccurs="0" name="traveAuthorityRef" type="xs:string"/>
+              <xs:element minOccurs="0" name="travelAuthority" type="xs:string"/>
+              <xs:element minOccurs="0" name="upgradationAmount" type="xs:double"/>
+              <xs:element minOccurs="0" name="upgradedTransactionID" type="xs:string"/>
+              <xs:element minOccurs="0" name="utsNumber" type="xs:string"/>
+              <xs:element minOccurs="0" name="bookingStatus" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringRoomSlotMap">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="activeYesno" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="bookingReservation" type="tns:retiringroomBookingReservation"/>
+          <xs:element minOccurs="0" name="bookingStatus" type="xs:string"/>
+          <xs:element minOccurs="0" name="id" type="xs:int"/>
+          <xs:element minOccurs="0" name="retiringroomSlotTarrifs" type="tns:retiringroomSlotTarrifs"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="retiringroomSlotTarrifs">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="available" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="calDestAmount" type="xs:double"/>
+              <xs:element minOccurs="0" name="calSrcAmount" type="xs:double"/>
+              <xs:element minOccurs="0" name="effectiveFrom" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="effectiveUntil" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="extraBedCharge" type="xs:double"/>
+              <xs:element minOccurs="0" name="futureTarrifEffectiveDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="futureTarrifEffectiveDateUntil" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="locationMaster" type="tns:retiringroomLocationMaster"/>
+              <xs:element minOccurs="0" name="otherBedCharge" type="xs:double"/>
+              <xs:element minOccurs="0" name="otherTariff" type="xs:double"/>
+              <xs:element minOccurs="0" name="retiringroomLocationSlots" type="tns:retiringroomLocationSlots"/>
+              <xs:element minOccurs="0" name="retiringroomRoommaster" type="tns:retiringroomRoommaster"/>
+              <xs:element minOccurs="0" name="retiringroomSlotMaster" type="tns:retiringroomSlotMaster"/>
+              <xs:element minOccurs="0" name="selected" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="tariffAmount" type="xs:double"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomLocationMaster">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="addressLine1" type="xs:string"/>
+              <xs:element minOccurs="0" name="addressLine2" type="xs:string"/>
+              <xs:element minOccurs="0" name="addressLine3" type="xs:string"/>
+              <xs:element minOccurs="0" name="arp" type="xs:int"/>
+              <xs:element minOccurs="0" name="checkInTime" type="xs:string"/>
+              <xs:element minOccurs="0" name="checkOutTime" type="xs:string"/>
+              <xs:element minOccurs="0" name="city" type="xs:string"/>
+              <xs:element minOccurs="0" name="contactDesignation" type="xs:string"/>
+              <xs:element minOccurs="0" name="contactPerson" type="xs:string"/>
+              <xs:element minOccurs="0" name="description" type="xs:string"/>
+              <xs:element minOccurs="0" name="divisionCode" type="xs:string"/>
+              <xs:element minOccurs="0" name="effectiveDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="email" type="xs:string"/>
+              <xs:element minOccurs="0" name="fax" type="xs:string"/>
+              <xs:element name="hourlyBookingYN" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="liftFacility" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="locationCode" type="xs:string"/>
+              <xs:element minOccurs="0" name="locationInMaintenance" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="phone" type="xs:string"/>
+              <xs:element minOccurs="0" name="phoneExtn" type="xs:string"/>
+              <xs:element minOccurs="0" name="pincode" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomLocationSlotses" nillable="true" type="tns:retiringroomLocationSlots"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomRoommasters" nillable="true" type="tns:retiringroomRoommaster"/>
+              <xs:element minOccurs="0" name="slots" type="xs:int"/>
+              <xs:element minOccurs="0" name="state" type="xs:string"/>
+              <xs:element minOccurs="0" name="stateUtCode" type="xs:string"/>
+              <xs:element minOccurs="0" name="stateUtFlag" type="xs:string"/>
+              <xs:element minOccurs="0" name="stationName" type="xs:string"/>
+              <xs:element minOccurs="0" name="stationNameCode" type="xs:string"/>
+              <xs:element minOccurs="0" name="terminationDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="terminationReason" type="xs:string"/>
+              <xs:element minOccurs="0" name="zoneCode" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomLocationSlots">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="availStatus" type="xs:string"/>
+              <xs:element minOccurs="0" name="checkinAmpm" type="xs:string"/>
+              <xs:element minOccurs="0" name="checkinTime" type="xs:string"/>
+              <xs:element minOccurs="0" name="checkoutAmpm" type="xs:string"/>
+              <xs:element minOccurs="0" name="checkoutTime" type="xs:string"/>
+              <xs:element minOccurs="0" name="extraBedCharge" type="xs:double"/>
+              <xs:element minOccurs="0" name="otherBedCharge" type="xs:double"/>
+              <xs:element minOccurs="0" name="otherTariff" type="xs:double"/>
+              <xs:element minOccurs="0" name="retiringroomLocationMaster" type="tns:retiringroomLocationMaster"/>
+              <xs:element minOccurs="0" name="retiringroomSlotMaster" type="tns:retiringroomSlotMaster"/>
+              <xs:element minOccurs="0" name="roomTariff" type="xs:double"/>
+              <xs:element minOccurs="0" name="selected" type="xs:boolean"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomSlotMaster">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="activeYn" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="checkInTime" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="checkOutTime" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="locationId" type="xs:int"/>
+              <xs:element minOccurs="0" name="slotDescription" type="xs:string"/>
+              <xs:element minOccurs="0" name="slotDuration" type="xs:int"/>
+              <xs:element minOccurs="0" name="stationId" type="xs:int"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomRoommaster">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="amenityId" type="xs:int"/>
+              <xs:element minOccurs="0" name="available" type="xs:boolean"/>
+              <xs:element name="disabledRoom" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="domBedCharge" type="xs:double"/>
+              <xs:element minOccurs="0" name="earlyCheckInHrs" type="xs:int"/>
+              <xs:element minOccurs="0" name="effectiveFrom" type="xs:dateTime"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="extraBedCharge" nillable="true" type="xs:double"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="lateCheckInHrs" type="xs:int"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="lstRoomSlotDtsDTO" nillable="true" type="tns:roomSlotDtsDTO"/>
+              <xs:element minOccurs="0" name="maxExtraBedAllowed" type="xs:int"/>
+              <xs:element minOccurs="0" name="maxPersonAllowed" type="xs:int"/>
+              <xs:element minOccurs="0" name="numberOfBeds" type="xs:int"/>
+              <xs:element minOccurs="0" name="phoneExtNumber" type="xs:int"/>
+              <xs:element minOccurs="0" name="quotaCategory" type="xs:string"/>
+              <xs:element minOccurs="0" name="retiringroomAcstatus" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomAmenitieses" nillable="true" type="tns:retiringroomAmenities"/>
+              <xs:element minOccurs="0" name="retiringroomBedType" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomDormitories" nillable="true" type="tns:retiringroomDormitory"/>
+              <xs:element minOccurs="0" name="retiringroomDormitory" type="xs:string"/>
+              <xs:element minOccurs="0" name="retiringroomFloorType" type="xs:string"/>
+              <xs:element minOccurs="0" name="retiringroomGrade" type="xs:int"/>
+              <xs:element minOccurs="0" name="retiringroomLocationMaster" type="tns:retiringroomLocationMaster"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomMaintenanceInfos" nillable="true" type="tns:retiringroomMaintenanceInfo"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomSlotTarrifs" nillable="true" type="tns:retiringroomSlotTarrifs"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomTariffmasters" nillable="true" type="tns:retiringroomTariffmaster"/>
+              <xs:element minOccurs="0" name="retiringroomType" type="xs:string"/>
+              <xs:element minOccurs="0" name="roomAmenities" type="xs:string"/>
+              <xs:element minOccurs="0" name="roomAmenitiy" type="xs:string"/>
+              <xs:element minOccurs="0" name="roomAvailable" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="roomDescription" type="xs:string"/>
+              <xs:element minOccurs="0" name="roomNumber" type="xs:string"/>
+              <xs:element name="slected" type="xs:boolean"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="slotDuration" nillable="true" type="xs:int"/>
+              <xs:element minOccurs="0" name="stationName" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="tariffAmount" nillable="true" type="xs:double"/>
+              <xs:element minOccurs="0" name="tariffId" type="xs:int"/>
+              <xs:element minOccurs="0" name="teminatedOn" type="xs:dateTime"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="roomSlotDtsDTO">
+        <xs:sequence>
+          <xs:element name="available" type="xs:boolean"/>
+          <xs:element name="checkinStatus" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="checkinTime" type="xs:dateTime"/>
+          <xs:element name="checkoutStatus" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="checkoutTime" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="currentStatus" type="xs:string"/>
+          <xs:element minOccurs="0" name="duration" type="xs:int"/>
+          <xs:element minOccurs="0" name="extraBedCharges" type="xs:double"/>
+          <xs:element minOccurs="0" name="rrRoomMaster" type="tns:retiringroomRoommaster"/>
+          <xs:element name="slotStatus" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="tarrif" type="xs:double"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="retiringroomAmenities">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="retiringroomAmenityMaster" type="tns:retiringroomAmenityMaster"/>
+              <xs:element minOccurs="0" name="retiringroomRoommaster" type="tns:retiringroomRoommaster"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomAmenityMaster">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="amenityCode" type="xs:string"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="amenityId" nillable="true" type="xs:int"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="amenityIds" nillable="true" type="xs:int"/>
+              <xs:element minOccurs="0" name="description" type="xs:string"/>
+              <xs:element minOccurs="0" name="displayName" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomDormitory">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="bedCharge" type="xs:double"/>
+              <xs:element minOccurs="0" name="bedNo" type="xs:string"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="retiringroomRoommaster" type="tns:retiringroomRoommaster"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomRoommasters" nillable="true" type="tns:retiringroomRoommaster"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomMaintenanceInfo">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="createdDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="modifiedBy" type="xs:string"/>
+              <xs:element minOccurs="0" name="natureOfJob" type="xs:string"/>
+              <xs:element minOccurs="0" name="plannedFinishDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="plannedStartDate" type="xs:dateTime"/>
+              <xs:element minOccurs="0" name="quota" type="xs:string"/>
+              <xs:element minOccurs="0" name="retiringroomLocationmaster" type="tns:retiringroomLocationMaster"/>
+              <xs:element minOccurs="0" name="retiringroomRoommaster" type="tns:retiringroomRoommaster"/>
+              <xs:element minOccurs="0" name="roomAvailable" type="xs:boolean"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomTariffmaster">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="retiringroomRoommaster" type="tns:retiringroomRoommaster"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="retiringroomBookingTxn">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="actualAmount" type="xs:double"/>
+          <xs:element minOccurs="0" name="bookingStatus" type="xs:string"/>
+          <xs:element minOccurs="0" name="cancellationDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="cancellationSlabMaster" type="tns:cancellationSlabMaster"/>
+          <xs:element minOccurs="0" name="cgstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="checkOutDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="checkinDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dateTimeReserveFrom" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="dateTimeReserveTo" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="duration" type="xs:int"/>
+          <xs:element minOccurs="0" name="flag" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="id" type="xs:int"/>
+          <xs:element minOccurs="0" name="igstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundAmount" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundCgstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundIgstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundSgstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundTotalGstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundUgstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="refundedServiceTax" type="xs:double"/>
+          <xs:element minOccurs="0" name="retiringroomBookingReservation" type="tns:retiringroomBookingReservation"/>
+          <xs:element minOccurs="0" name="retiringroomRoommaster" type="tns:retiringroomRoommaster"/>
+          <xs:element minOccurs="0" name="serviceTax" type="xs:double"/>
+          <xs:element minOccurs="0" name="sgstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="tarriffCharge" type="xs:double"/>
+          <xs:element minOccurs="0" name="totalGstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="transactionDate" type="xs:dateTime"/>
+          <xs:element minOccurs="0" name="txnType" type="xs:string"/>
+          <xs:element minOccurs="0" name="ugstAmnt" type="xs:double"/>
+          <xs:element minOccurs="0" name="userLoginInfoId" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cancellationSlabMaster">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="description" type="xs:string"/>
+          <xs:element minOccurs="0" name="id" type="xs:int"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomBookingTxn" nillable="true" type="tns:retiringroomBookingTxn"/>
+          <xs:element minOccurs="0" name="slabCode" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="retiringroomGuestinfo">
+        <xs:complexContent>
+          <xs:extension base="tns:crisModel">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="address1" type="xs:string"/>
+              <xs:element minOccurs="0" name="address2" type="xs:string"/>
+              <xs:element minOccurs="0" name="address3" type="xs:string"/>
+              <xs:element minOccurs="0" name="email" type="xs:string"/>
+              <xs:element minOccurs="0" name="emailFormat" type="xs:string"/>
+              <xs:element minOccurs="0" name="firstName" type="xs:string"/>
+              <xs:element minOccurs="0" name="homePhone" type="xs:string"/>
+              <xs:element minOccurs="0" name="id" type="xs:int"/>
+              <xs:element minOccurs="0" name="identityProof" type="xs:string"/>
+              <xs:element minOccurs="0" name="lastName" type="xs:string"/>
+              <xs:element minOccurs="0" name="mobileNumebr" type="xs:string"/>
+              <xs:element minOccurs="0" name="number" type="xs:string"/>
+              <xs:element minOccurs="0" name="pincode" type="xs:int"/>
+              <xs:element maxOccurs="unbounded" minOccurs="0" name="retiringroomBookingReservations" nillable="true" type="tns:retiringroomBookingReservation"/>
+              <xs:element minOccurs="0" name="smsConfirmation" type="xs:boolean"/>
+              <xs:element minOccurs="0" name="state" type="xs:string"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="CheckHourlyLocationRequest">
+        <xs:sequence>
+          <xs:element name="locationCd" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="checkHourlyLocationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="responseDescription" type="xs:string"/>
+          <xs:element minOccurs="0" name="serviceResponse" type="tns:serviceresponse"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="ReservationHourlyRequest">
+        <xs:sequence>
+          <xs:element name="acStatus" type="tns:acstatus"/>
+          <xs:element name="agentId" type="xs:int"/>
+          <xs:element name="bedType" type="tns:bedtype"/>
+          <xs:element minOccurs="0" name="bookingReferenceNumber" type="xs:string"/>
+          <xs:element minOccurs="0" name="bookingType" type="xs:string"/>
+          <xs:element name="checkInDateTime" type="xs:dateTime"/>
+          <xs:element name="checkInStartTime" type="xs:string"/>
+          <xs:element name="checkOutDateTime" type="xs:dateTime"/>
+          <xs:element name="checkOutEndTime" type="xs:string"/>
+          <xs:element minOccurs="0" name="gstnDetails" nillable="true" type="tns:GSTNDetails"/>
+          <xs:element maxOccurs="unbounded" name="guestDetailsList" type="tns:GuestDetail"/>
+          <xs:element name="guestInfo" type="tns:GuestInfo"/>
+          <xs:element name="numberOfAdults" type="xs:int"/>
+          <xs:element name="quota" type="tns:quota"/>
+          <xs:element name="reservationStation" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" name="roomHourlyDetailList" type="tns:RoomHourlyDetail"/>
+          <xs:element minOccurs="0" name="taxInvoiceNo" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="totalAmount" type="xs:double"/>
+          <xs:element name="transactionID" type="xs:string"/>
+          <xs:element name="travelAuthority" type="tns:travelauthority"/>
+          <xs:element name="travelAuthorityNumber" type="xs:string"/>
+          <xs:element name="upgradedTransactionID" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="CancellationRequest">
+        <xs:sequence>
+          <xs:element name="agentId" type="xs:int"/>
+          <xs:element name="booking_ref_nbr" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" name="guestDetailsList" type="tns:GuestDetail"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="cancellationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="bookingRefNbr" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="guestDetails" nillable="true" type="tns:GuestDetail"/>
+          <xs:element minOccurs="0" name="responseDescription" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="roomDetails" nillable="true" type="tns:RoomDetail"/>
+          <xs:element minOccurs="0" name="serviceResponse" type="tns:serviceresponse"/>
+          <xs:element minOccurs="0" name="taxInvoiceNo" type="xs:string"/>
+          <xs:element minOccurs="0" name="transactionId" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="UpgradationRequest">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" name="newBookRoomDetails" type="tns:ReservationRequest"/>
+          <xs:element maxOccurs="unbounded" name="previousBookedRoomDetails" type="tns:ReservationRequest"/>
+          <xs:element name="previousBookingRefNbr" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="upgradationResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="bookingRefNbr" type="xs:string"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="newBookedRoomDetails" nillable="true" type="tns:ReservationRequest"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="previousBookedRoomDetails" nillable="true" type="tns:ReservationRequest"/>
+          <xs:element minOccurs="0" name="responseDescription" type="xs:string"/>
+          <xs:element minOccurs="0" name="serviceResponse" type="tns:serviceresponse"/>
+          <xs:element name="upgradationDiffAmt" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="TransactionIdEnquiryRequest">
+        <xs:sequence>
+          <xs:element name="transactionID" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transactionIdEnquiryResponse">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="transactionIdDetails" type="tns:transactionIdDetails"/>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="guests" nillable="true" type="tns:guestinfoMap"/>
+          <xs:element minOccurs="0" name="responseDescription" type="xs:string"/>
+          <xs:element minOccurs="0" name="serviceResponse" type="tns:serviceresponse"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="transactionIdDetails">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="bookingTransactionDetails" nillable="true" type="tns:ReservationRequest"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:simpleType name="acstatus">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="AC"/>
+          <xs:enumeration value="NONAC"/>
+          <xs:enumeration value="ALL"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="bedtype">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="DORMITORY"/>
+          <xs:enumeration value="SINGLE"/>
+          <xs:enumeration value="DOUBLE"/>
+          <xs:enumeration value="FAMILY"/>
+          <xs:enumeration value="ALL"/>
+          <xs:enumeration value="DSR"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="quota">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="GN"/>
+          <xs:enumeration value="LD"/>
+          <xs:enumeration value="GM"/>
+          <xs:enumeration value="HP"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="travelauthority">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="PNR"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="roomtype">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="DORMITORY"/>
+          <xs:enumeration value="ORDINARY"/>
+          <xs:enumeration value="DELUXE"/>
+          <xs:enumeration value="MAHARAJA"/>
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:simpleType name="serviceresponse">
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="SUCCESS"/>
+          <xs:enumeration value="FAILURE"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:schema>
+  </types>
+  <message name="RetiringRoomServices_checkAvailabilityResponse">
+    <part name="return" type="tns:availabilityResponse"/>
+  </message>
+  <message name="RetiringRoomServices_checkAvailability">
+    <part name="arg0" type="tns:AvailabilityRequest"/>
+  </message>
+  <message name="RetiringRoomServices_writeToCSVResponse"/>
+  <message name="RetiringRoomServices_searchHourlyAvailability">
+    <part name="arg0" type="tns:AvailabilityRequest"/>
+  </message>
+  <message name="RetiringRoomServices_initiailizeQuartz"/>
+  <message name="RetiringRoomServices_checkLocationEnabledForHourlyResponse">
+    <part name="return" type="tns:checkHourlyLocationResponse"/>
+  </message>
+  <message name="RetiringRoomServices_writeToCSV"/>
+  <message name="RetiringRoomServices_upgradeReservation">
+    <part name="arg0" type="tns:UpgradationRequest"/>
+  </message>
+  <message name="RetiringRoomServices_doTranscationIdEnquiryResponse">
+    <part name="return" type="tns:transactionIdEnquiryResponse"/>
+  </message>
+  <message name="RetiringRoomServices_bookRoom">
+    <part name="arg0" type="tns:ReservationRequest"/>
+  </message>
+  <message name="RetiringRoomServices_bookRoomResponse">
+    <part name="return" type="tns:reservationResponse"/>
+  </message>
+  <message name="RetiringRoomServices_cancelReservationResponse">
+    <part name="return" type="tns:cancellationResponse"/>
+  </message>
+  <message name="RetiringRoomServices_checkStatus">
+    <part name="arg0" type="tns:statusRequest"/>
+  </message>
+  <message name="RetiringRoomServices_searchHourlyAvailabilityResponse">
+    <part name="return" type="tns:availabilityResponse"/>
+  </message>
+  <message name="RetiringRoomServices_bookAccommodation">
+    <part name="arg0" type="tns:ReservationHourlyRequest"/>
+  </message>
+  <message name="RetiringRoomServices_doTranscationIdEnquiry">
+    <part name="arg0" type="tns:TransactionIdEnquiryRequest"/>
+  </message>
+  <message name="RetiringRoomServices_initiailizeQuartzResponse"/>
+  <message name="RetiringRoomServices_cancelReservation">
+    <part name="arg0" type="tns:CancellationRequest"/>
+  </message>
+  <message name="RetiringRoomServices_upgradeReservationResponse">
+    <part name="return" type="tns:upgradationResponse"/>
+  </message>
+  <message name="RetiringRoomServices_checkStatusResponse">
+    <part name="return" type="tns:serviceAck"/>
+  </message>
+  <message name="RetiringRoomServices_bookAccommodationResponse">
+    <part name="return" type="tns:reservationResponse"/>
+  </message>
+  <message name="RetiringRoomServices_checkLocationEnabledForHourly">
+    <part name="arg0" type="tns:CheckHourlyLocationRequest"/>
+  </message>
+  <portType name="RetiringRoomServices">
+    <operation name="bookAccommodation" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_bookAccommodation"/>
+      <output message="tns:RetiringRoomServices_bookAccommodationResponse"/>
+    </operation>
+    <operation name="bookRoom" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_bookRoom"/>
+      <output message="tns:RetiringRoomServices_bookRoomResponse"/>
+    </operation>
+    <operation name="cancelReservation" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_cancelReservation"/>
+      <output message="tns:RetiringRoomServices_cancelReservationResponse"/>
+    </operation>
+    <operation name="checkAvailability" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_checkAvailability"/>
+      <output message="tns:RetiringRoomServices_checkAvailabilityResponse"/>
+    </operation>
+    <operation name="checkLocationEnabledForHourly" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_checkLocationEnabledForHourly"/>
+      <output message="tns:RetiringRoomServices_checkLocationEnabledForHourlyResponse"/>
+    </operation>
+    <operation name="checkStatus" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_checkStatus"/>
+      <output message="tns:RetiringRoomServices_checkStatusResponse"/>
+    </operation>
+    <operation name="doTranscationIdEnquiry" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_doTranscationIdEnquiry"/>
+      <output message="tns:RetiringRoomServices_doTranscationIdEnquiryResponse"/>
+    </operation>
+    <operation name="initiailizeQuartz">
+      <input message="tns:RetiringRoomServices_initiailizeQuartz"/>
+      <output message="tns:RetiringRoomServices_initiailizeQuartzResponse"/>
+    </operation>
+    <operation name="searchHourlyAvailability" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_searchHourlyAvailability"/>
+      <output message="tns:RetiringRoomServices_searchHourlyAvailabilityResponse"/>
+    </operation>
+    <operation name="upgradeReservation" parameterOrder="arg0">
+      <input message="tns:RetiringRoomServices_upgradeReservation"/>
+      <output message="tns:RetiringRoomServices_upgradeReservationResponse"/>
+    </operation>
+    <operation name="writeToCSV">
+      <input message="tns:RetiringRoomServices_writeToCSV"/>
+      <output message="tns:RetiringRoomServices_writeToCSVResponse"/>
+    </operation>
+  </portType>
+  <binding name="RetiringRoomServicesBinding" type="tns:RetiringRoomServices">
+    <soap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="bookAccommodation">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="bookRoom">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="cancelReservation">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="checkAvailability">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="checkLocationEnabledForHourly">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="checkStatus">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="doTranscationIdEnquiry">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="initiailizeQuartz">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="searchHourlyAvailability">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="upgradeReservation">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+    <operation name="writeToCSV">
+      <soap:operation soapAction=""/>
+      <input>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </input>
+      <output>
+        <soap:body namespace="http://ws.rr.cris.com/" use="literal"/>
+      </output>
+    </operation>
+  </binding>
+  <service name="RetiringRoomServicesService">
+    <port binding="tns:RetiringRoomServicesBinding" name="RetiringRoomServicesPort">
+      <soap:address location="http://10.64.6.71:8080/rrws/RetiringRoomServices"/>
+    </port>
+  </service>
+</definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="bookAccommodation" bindingOperationName="bookAccommodation" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:bookAccommodation>
+         <arg0>
+           <acStatus>ALL</acStatus>
+
+<agentId>1008</agentId>
+<bedType>DORMITORY</bedType>
+<bookingType>H</bookingType>
+<checkInDateTime>2022-07-28</checkInDateTime>
+<checkInStartTime>09</checkInStartTime>
+<checkOutDateTime>2022-07-29</checkOutDateTime>
+<checkOutEndTime>21</checkOutEndTime>
+
+
+-<gstnDetails>
+
+
+-<passengerGstnDetails>
+
+<passengerAddress>?</passengerAddress>
+
+<passengerGstnNumber>?</passengerGstnNumber>
+
+<passengerName>?</passengerName>
+
+<passengerState>?</passengerState>
+
+<passengerZone>?</passengerZone>
+
+</passengerGstnDetails>
+
+<passengerOrSupplierGst>S</passengerOrSupplierGst>
+
+
+-<supplierGstnDetails>
+
+<supplierAddress>Indian Railways</supplierAddress>
+
+<supplierGstnNumber>27AAAGM0289CA19</supplierGstnNumber>
+
+<supplierName>Indian Railways</supplierName>
+
+<supplierStateCode>MH</supplierStateCode>
+
+<supplierZoneCode>WC</supplierZoneCode>
+
+</supplierGstnDetails>
+
+</gstnDetails>
+
+
+-<guestDetailsList>
+<age>33</age>
+<name>INDER SINGH SEHR</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>6E</roomNumber>
+<sex>M</sex>
+</guestDetailsList>
+
+-<guestDetailsList>
+<age>25</age>
+<name>ANMOL RATTAN KAU</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>513C</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+
+-<guestInfo>
+
+<contactNumber>7580962537</contactNumber>
+
+<email>iluthakur333@gmail.com</email>
+
+<idNumber>758457038519</idNumber>
+
+<identityProof>PAN CARD</identityProof>
+
+</guestInfo>
+
+<numberOfAdults>2</numberOfAdults>
+
+<quota>GN</quota>
+
+<reservationStation>MMCT</reservationStation>
+
+
+-    <roomHourlyDetailList>
+               <acStatus>NONAC</acStatus>
+               <baseTariff>3800.0</baseTariff>
+               <bedType>DORMITORY</bedType>
+               <checkInTime>2022-07-28T09:00:00+05:30</checkInTime>
+               <checkOutTime>2022-07-29T21:00:00+05:30</checkOutTime>
+               <duration>36</duration>
+               <roomAmenities>FIRST FLOOR,NONAC,ATTACHED TOILET, COMMON TOILET</roomAmenities>
+               <roomNo>6E</roomNo>
+               <roomStatus>ROOM_AVAILABLE</roomStatus>
+               <roomType>DORMITORY</roomType>
+               <tariffRate>6650.0</tariffRate>
+            </roomHourlyDetailList>
+            <roomHourlyDetailList>
+               <acStatus>NONAC</acStatus>
+               <baseTariff>3800.0</baseTariff>
+               <bedType>DORMITORY</bedType>
+               <checkInTime>2022-07-28T09:00:00+05:30</checkInTime>
+               <checkOutTime>2022-07-29T21:00:00+05:30</checkOutTime>
+               <duration>36</duration>
+               <roomAmenities>FIRST FLOOR,NONAC,ATTACHED TOILET, COMMON TOILET, INDIAN TOILET, EUROPEAN TOILET, LOCKER</roomAmenities>
+               <roomNo>6G</roomNo>
+               <roomStatus>ROOM_AVAILABLE</roomStatus>
+               <roomType>DORMITORY</roomType>
+               <tariffRate>6650.0</tariffRate>
+            </roomHourlyDetailList>
+
+
+
+
+
+
+
+<taxInvoiceNo>?</taxInvoiceNo>
+<totalAmount>120.0</totalAmount>
+<transactionID>9901500423</transactionID>
+<travelAuthority>PNR</travelAuthority>
+<travelAuthorityNumber>2822817104</travelAuthorityNumber>
+<upgradedTransactionID>?</upgradedTransactionID>
+         </arg0>
+      </ws:bookAccommodation>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/bookAccommodationRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="bookRoom" bindingOperationName="bookRoom" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:bookRoom>
+         <arg0>
+    <acStatus>ALL</acStatus>
+<agentId>1008</agentId>
+<bedType>DOUBLE</bedType>
+<bookingReferenceNumber>?</bookingReferenceNumber>
+<checkInDateTime>2022-11-15</checkInDateTime>
+<checkOutDateTime>2022-11-17</checkOutDateTime>
+<gstnDetails>
+
+<passengerGstnDetails>
+<passengerAddress>?</passengerAddress>
+<passengerGstnNumber>?</passengerGstnNumber>
+<passengerName>?</passengerName>
+<passengerState>?</passengerState>
+<passengerZone>?</passengerZone>
+</passengerGstnDetails>
+<passengerOrSupplierGst>S</passengerOrSupplierGst>
+
+<supplierGstnDetails>
+<supplierAddress>Indian Railways</supplierAddress>
+<supplierGstnNumber>06AAAGM0289C1ZN</supplierGstnNumber>
+<supplierName>Indian Railways</supplierName>
+<supplierStateCode>HR</supplierStateCode>
+<supplierZoneCode>NR</supplierZoneCode>
+</supplierGstnDetails>
+</gstnDetails>
+
+<guestDetailsList>
+<age>52</age>
+<name>SUNITA SWARNAKAR</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>2</roomNumber>
+<sex>F</sex>
+
+</guestDetailsList>
+<guestDetailsList>
+<age>47</age>
+<name>PRAKASH PRASAD G</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>2</roomNumber>
+<sex>M</sex>
+</guestDetailsList>
+
+<guestDetailsList>
+<age>37</age>
+<name>NITU GUPTA</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>2</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+
+<guestDetailsList>
+<age>35</age>
+<name>RAJPRADEEP SINGH</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>3</roomNumber>
+<sex>M</sex>
+</guestDetailsList>
+
+<guestDetailsList>
+<age>32</age>
+<name>PRITI SINGH</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>3</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+
+<guestDetailsList>
+<age>22</age>
+<name>DIPALI GUPTA</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>3</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+
+
+<guestInfo>
+<contactNumber>9831340121</contactNumber>
+<email>rajpradeep.singh@yahoo.com</email>
+<idNumber>405839315068</idNumber>
+<identityProof>PAN CARD</identityProof>
+</guestInfo>
+<numberOfAdults>6</numberOfAdults>
+<quota>GN</quota>
+<reservationStation>PNP</reservationStation>
+<roomDetailList>
+<acStatus>ALL</acStatus>
+<bedType>DOUBLE</bedType>
+<roomAmenities>?</roomAmenities>
+<roomNo>2</roomNo>
+<roomStatus>?</roomStatus>
+<roomType>?</roomType>
+<slotTarrifList>
+<cgstTaxAmnt>null</cgstTaxAmnt>
+<checkInTime>2022-11-15T20:00:00+05:30</checkInTime>
+<checkInTime24Hrs>2000</checkInTime24Hrs>
+<checkOutTime>2022-11-16T20:00:00+05:30</checkOutTime>
+<checkOutTime24Hrs>2000</checkOutTime24Hrs>
+<igstTaxAmnt>0.0</igstTaxAmnt>
+<refundAmount>?</refundAmount>
+<serviceTax>?</serviceTax>
+<sgstTaxAmnt>null</sgstTaxAmnt>
+<slotDuration>24</slotDuration>
+<tarrifRate>570.0</tarrifRate>
+<totalGstAmnt>null</totalGstAmnt>
+<ugstTaxAmnt>null</ugstTaxAmnt>
+</slotTarrifList>
+<slotTarrifList>
+<cgstTaxAmnt>null</cgstTaxAmnt>
+<checkInTime>2022-11-16T20:00:00+05:30</checkInTime>
+<checkInTime24Hrs>2000</checkInTime24Hrs>
+<checkOutTime>2022-11-17T20:00:00+05:30</checkOutTime>
+<checkOutTime24Hrs>2000</checkOutTime24Hrs>
+<igstTaxAmnt>0.0</igstTaxAmnt>
+<refundAmount>?</refundAmount>
+<serviceTax>?</serviceTax>
+<sgstTaxAmnt>null</sgstTaxAmnt>
+<slotDuration>24</slotDuration>
+<tarrifRate>570.0</tarrifRate>
+<totalGstAmnt>null</totalGstAmnt>
+<ugstTaxAmnt>null</ugstTaxAmnt>
+</slotTarrifList>
+</roomDetailList>
+<roomDetailList>
+<acStatus>ALL</acStatus>
+<bedType>DOUBLE</bedType>
+<roomAmenities>?</roomAmenities>
+<roomNo>3</roomNo>
+<roomStatus>?</roomStatus>
+<roomType>?</roomType>
+<slotTarrifList>
+<cgstTaxAmnt>null</cgstTaxAmnt>
+<checkInTime>2022-11-15T20:00:00+05:30</checkInTime>
+<checkInTime24Hrs>2000</checkInTime24Hrs>
+<checkOutTime>2022-11-16T20:00:00+05:30</checkOutTime>
+<checkOutTime24Hrs>2000</checkOutTime24Hrs>
+<igstTaxAmnt>0.0</igstTaxAmnt>
+<refundAmount>?</refundAmount>
+<serviceTax>?</serviceTax>
+<sgstTaxAmnt>null</sgstTaxAmnt>
+<slotDuration>24</slotDuration>
+<tarrifRate>570.0</tarrifRate>
+<totalGstAmnt>null</totalGstAmnt>
+<ugstTaxAmnt>null</ugstTaxAmnt>
+</slotTarrifList>
+<slotTarrifList>
+<cgstTaxAmnt>null</cgstTaxAmnt>
+<checkInTime>2022-11-16T20:00:00+05:30</checkInTime>
+<checkInTime24Hrs>2000</checkInTime24Hrs>
+<checkOutTime>2022-11-17T20:00:00+05:30</checkOutTime>
+<checkOutTime24Hrs>2000</checkOutTime24Hrs>
+<igstTaxAmnt>0.0</igstTaxAmnt>
+<refundAmount>?</refundAmount>
+<serviceTax>?</serviceTax>
+<sgstTaxAmnt>null</sgstTaxAmnt>
+<slotDuration>24</slotDuration>
+<tarrifRate>570.0</tarrifRate>
+<totalGstAmnt>null</totalGstAmnt>
+<ugstTaxAmnt>null</ugstTaxAmnt>
+</slotTarrifList>
+</roomDetailList>
+<taxInvoiceNo>?</taxInvoiceNo>
+<totalAmount>2565.0</totalAmount>
+<transactionID>6001556651</transactionID>
+<travelAuthority>PNR</travelAuthority>
+<travelAuthorityNumber>2725705411</travelAuthorityNumber>
+<upgradedTransactionID>?</upgradedTransactionID>
+         </arg0>
+      </ws:bookRoom>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/bookRoomRequest"/><con:wsrmConfig version="1.2"/></con:call><con:call name="Request 2"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:bookRoom>
+         <arg0>
+           <acStatus>NONAC</acStatus>
+<agentId>1008</agentId>
+<bedType>DOUBLE</bedType>
+<bookingReferenceNumber>?</bookingReferenceNumber>
+<checkInDateTime>2022-08-23</checkInDateTime>
+<checkOutDateTime>2022-08-24</checkOutDateTime>
+<gstnDetails>
+<passengerGstnDetails>
+<passengerAddress>?</passengerAddress>
+<passengerGstnNumber>?</passengerGstnNumber>
+<passengerName>?</passengerName>
+<passengerState>?</passengerState>
+<passengerZone>?</passengerZone>
+</passengerGstnDetails>
+<passengerOrSupplierGst>S</passengerOrSupplierGst>
+<supplierGstnDetails>
+<supplierAddress>Indian Railways</supplierAddress>
+<supplierGstnNumber>09AAAGM0289C1ZH</supplierGstnNumber>
+<supplierName>Indian Railways</supplierName>
+<supplierStateCode>UP</supplierStateCode>
+<supplierZoneCode>NCR</supplierZoneCode>
+</supplierGstnDetails>
+</gstnDetails>
+<guestDetailsList>
+<age>32</age>
+<name>KIRAN SAKUNDE</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>101</roomNumber>
+<sex>M</sex>
+</guestDetailsList>
+<guestDetailsList>
+<age>25</age>
+<name>SARIKA</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>102</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+<guestDetailsList>
+<age>28</age>
+<name>SANDIP ANPAT</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>101</roomNumber>
+<sex>M</sex>
+</guestDetailsList>
+<guestDetailsList>
+<age>27</age>
+<name>VAISHALI</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>102</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+<guestDetailsList>
+<age>50</age>
+<name>ASHABI SAKUNDE</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>102</roomNumber>
+<sex>F</sex>
+</guestDetailsList>
+<guestDetailsList>
+<age>54</age>
+<name>JANARDHAN SAKUND</name>
+<pnrStatus>CNF</pnrStatus>
+<roomNumber>101</roomNumber>
+<sex>M</sex>
+</guestDetailsList>
+<guestInfo>
+<contactNumber>6005577631</contactNumber>
+<email>kirankaran1811@gmail.com</email>
+<idNumber>887364802105</idNumber>
+<identityProof>PAN CARD</identityProof>
+</guestInfo>
+<numberOfAdults>6</numberOfAdults>
+<quota>GN</quota>
+<reservationStation>PCOI</reservationStation>
+<roomDetailList>
+<acStatus>NONAC</acStatus>
+<bedType>DOUBLE</bedType>
+<roomAmenities>?</roomAmenities>
+<roomNo>101</roomNo>
+<roomStatus>?</roomStatus>
+<roomType>?</roomType>
+<slotTarrifList>
+<cgstTaxAmnt>null</cgstTaxAmnt>
+<checkInTime>2022-08-23T20:00:00+05:30</checkInTime>
+<checkInTime24Hrs>2000</checkInTime24Hrs>
+<checkOutTime>2022-08-24T08:00:00+05:30</checkOutTime>
+<checkOutTime24Hrs>0800</checkOutTime24Hrs>
+<igstTaxAmnt>null</igstTaxAmnt>
+<refundAmount>?</refundAmount>
+<serviceTax>?</serviceTax>
+<sgstTaxAmnt>null</sgstTaxAmnt>
+<slotDuration>12</slotDuration>
+<tarrifRate>342.0</tarrifRate>
+<totalGstAmnt>null</totalGstAmnt>
+<ugstTaxAmnt>null</ugstTaxAmnt>
+</slotTarrifList>
+</roomDetailList>
+<roomDetailList>
+<acStatus>NONAC</acStatus>
+<bedType>DOUBLE</bedType>
+<roomAmenities>?</roomAmenities>
+<roomNo>102</roomNo>
+<roomStatus>?</roomStatus>
+<roomType>?</roomType>
+<slotTarrifList>
+<cgstTaxAmnt>null</cgstTaxAmnt>
+<checkInTime>2022-08-23T20:00:00+05:30</checkInTime>
+<checkInTime24Hrs>2000</checkInTime24Hrs>
+<checkOutTime>2022-08-24T08:00:00+05:30</checkOutTime>
+<checkOutTime24Hrs>0800</checkOutTime24Hrs>
+<igstTaxAmnt>null</igstTaxAmnt>
+<refundAmount>?</refundAmount>
+<serviceTax>?</serviceTax>
+<sgstTaxAmnt>null</sgstTaxAmnt>
+<slotDuration>12</slotDuration>
+<tarrifRate>342.0</tarrifRate>
+<totalGstAmnt>null</totalGstAmnt>
+<ugstTaxAmnt>null</ugstTaxAmnt>
+</slotTarrifList>
+</roomDetailList>
+<taxInvoiceNo>?</taxInvoiceNo>
+<totalAmount>684.0</totalAmount>
+<transactionID>6001663619</transactionID>
+<travelAuthority>PNR</travelAuthority>
+<travelAuthorityNumber>2244266857</travelAuthorityNumber>
+<upgradedTransactionID>?</upgradedTransactionID>
+         </arg0>
+      </ws:bookRoom>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/bookRoomRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="cancelReservation" bindingOperationName="cancelReservation" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:cancelReservation>
+         <arg0>
+            <agentId>1008</agentId>
+            <booking_ref_nbr>BSBRR1955862</booking_ref_nbr>
+            <!--1 or more repetitions:-->
+            <guestDetailsList>
+               <age>63</age>
+			<name>PREM SHARMA</name>
+			<pnrStatus>CNF</pnrStatus>
+			<roomNumber>A02</roomNumber>
+			<sex>F</sex>
+		</guestDetailsList>
+         
+           
+         
+         
+         </arg0>
+      </ws:cancelReservation>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/cancelReservationRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="checkAvailability" bindingOperationName="checkAvailability" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:checkAvailability>
+     
+          <arg0>
+		<acStatus>ALL</acStatus>
+<bedType>DOUBLE</bedType>
+<checkInStartTime/>
+<checkInTime>2022-11-26T00:00:00</checkInTime>
+<checkOutEndTime>00</checkOutEndTime>
+<checkOutTime>2022-11-27T00:00:00</checkOutTime>
+<quota>GN</quota>
+<reservationSourceStation>PRYJ</reservationSourceStation>
+<travelAuthority>PNR</travelAuthority>
+<travelAuthorityNumber>6211712156</travelAuthorityNumber>
+<upgradeStatus>N</upgradeStatus>
+         </arg0>
+      </ws:checkAvailability>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/checkAvailabilityRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="checkLocationEnabledForHourly" bindingOperationName="checkLocationEnabledForHourly" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:checkLocationEnabledForHourly>
+         <arg0>
+            <locationCd>MMCT</locationCd>
+         </arg0>
+      </ws:checkLocationEnabledForHourly>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/checkLocationEnabledForHourlyRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="checkStatus" bindingOperationName="checkStatus" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:checkStatus>
+         <arg0/>
+      </ws:checkStatus>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/checkStatusRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="doTranscationIdEnquiry" bindingOperationName="doTranscationIdEnquiry" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:doTranscationIdEnquiry>
+         <arg0>
+            <transactionID>?</transactionID>
+         </arg0>
+      </ws:doTranscationIdEnquiry>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/doTranscationIdEnquiryRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="initiailizeQuartz" bindingOperationName="initiailizeQuartz" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:initiailizeQuartz/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/initiailizeQuartzRequest"/></con:call></con:operation><con:operation isOneWay="false" action="" name="searchHourlyAvailability" bindingOperationName="searchHourlyAvailability" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:searchHourlyAvailability>
+         <arg0>
+            <acStatus>NONAC</acStatus>
+            <bedType>DORMITORY</bedType>
+            <!--Optional:-->
+            <bookingType>H</bookingType>
+            <checkInStartTime>09</checkInStartTime>
+            <checkInTime>2022-07-28</checkInTime>
+            <checkOutEndTime>21</checkOutEndTime>
+            <checkOutTime>2022-07-29</checkOutTime>
+            <quota>GN</quota>
+            <reservationSourceStation>MMCT</reservationSourceStation>
+            <travelAuthority>PNR</travelAuthority>
+            <travelAuthorityNumber>2822817104</travelAuthorityNumber>
+            <upgradeStatus>?</upgradeStatus>
+         </arg0>
+      </ws:searchHourlyAvailability>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/searchHourlyAvailabilityRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="upgradeReservation" bindingOperationName="upgradeReservation" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:upgradeReservation>
+         <arg0>
+            <!--1 or more repetitions:-->
+            <newBookRoomDetails>
+               <acStatus>?</acStatus>
+               <agentId>?</agentId>
+               <bedType>?</bedType>
+               <!--Optional:-->
+               <bookingReferenceNumber>?</bookingReferenceNumber>
+               <checkInDateTime>?</checkInDateTime>
+               <checkOutDateTime>?</checkOutDateTime>
+               <!--Optional:-->
+               <gstnDetails>
+                  <!--Optional:-->
+                  <passengerGstnDetails>
+                     <!--Optional:-->
+                     <passengerAddress>?</passengerAddress>
+                     <passengerGstnNumber>?</passengerGstnNumber>
+                     <passengerName>?</passengerName>
+                     <!--Optional:-->
+                     <passengerState>?</passengerState>
+                     <!--Optional:-->
+                     <passengerZone>?</passengerZone>
+                  </passengerGstnDetails>
+                  <passengerOrSupplierGst>?</passengerOrSupplierGst>
+                  <supplierGstnDetails>
+                     <supplierAddress>Indian Railways</supplierAddress>
+                     <supplierGstnNumber>?</supplierGstnNumber>
+                     <supplierName>Indian Railways</supplierName>
+                     <supplierStateCode>?</supplierStateCode>
+                     <supplierZoneCode>?</supplierZoneCode>
+                  </supplierGstnDetails>
+               </gstnDetails>
+               <!--1 or more repetitions:-->
+               <guestDetailsList>
+                  <age>?</age>
+                  <name>?</name>
+                  <!--Optional:-->
+                  <pnrStatus>?</pnrStatus>
+                  <roomNumber>?</roomNumber>
+                  <sex>?</sex>
+               </guestDetailsList>
+               <guestInfo>
+                  <contactNumber>?</contactNumber>
+                  <!--Optional:-->
+                  <email>?</email>
+                  <idNumber>?</idNumber>
+                  <identityProof>?</identityProof>
+               </guestInfo>
+               <numberOfAdults>?</numberOfAdults>
+               <quota>?</quota>
+               <reservationStation>?</reservationStation>
+               <!--1 or more repetitions:-->
+               <roomDetailList>
+                  <!--Optional:-->
+                  <acStatus>?</acStatus>
+                  <!--Optional:-->
+                  <bedType>?</bedType>
+                  <!--Optional:-->
+                  <roomAmenities>?</roomAmenities>
+                  <roomNo>?</roomNo>
+                  <!--Optional:-->
+                  <roomStatus>?</roomStatus>
+                  <!--Optional:-->
+                  <roomType>?</roomType>
+                  <!--1 or more repetitions:-->
+                  <slotTarrifList>
+                     <!--Optional:-->
+                     <cgstTaxAmnt>?</cgstTaxAmnt>
+                     <checkInTime>?</checkInTime>
+                     <checkInTime24Hrs>?</checkInTime24Hrs>
+                     <checkOutTime>?</checkOutTime>
+                     <checkOutTime24Hrs>?</checkOutTime24Hrs>
+                     <!--Optional:-->
+                     <igstTaxAmnt>?</igstTaxAmnt>
+                     <!--Optional:-->
+                     <refundAmount>?</refundAmount>
+                     <!--Optional:-->
+                     <serviceTax>?</serviceTax>
+                     <!--Optional:-->
+                     <sgstTaxAmnt>?</sgstTaxAmnt>
+                     <slotDuration>?</slotDuration>
+                     <tarrifRate>?</tarrifRate>
+                     <!--Optional:-->
+                     <totalGstAmnt>?</totalGstAmnt>
+                     <!--Optional:-->
+                     <ugstTaxAmnt>?</ugstTaxAmnt>
+                  </slotTarrifList>
+               </roomDetailList>
+               <!--Optional:-->
+               <taxInvoiceNo>?</taxInvoiceNo>
+               <!--Optional:-->
+               <totalAmount>?</totalAmount>
+               <transactionID>?</transactionID>
+               <travelAuthority>?</travelAuthority>
+               <travelAuthorityNumber>?</travelAuthorityNumber>
+               <upgradedTransactionID>?</upgradedTransactionID>
+            </newBookRoomDetails>
+            <!--1 or more repetitions:-->
+            <previousBookedRoomDetails>
+               <acStatus>?</acStatus>
+               <agentId>?</agentId>
+               <bedType>?</bedType>
+               <!--Optional:-->
+               <bookingReferenceNumber>?</bookingReferenceNumber>
+               <checkInDateTime>?</checkInDateTime>
+               <checkOutDateTime>?</checkOutDateTime>
+               <!--Optional:-->
+               <gstnDetails>
+                  <!--Optional:-->
+                  <passengerGstnDetails>
+                     <!--Optional:-->
+                     <passengerAddress>?</passengerAddress>
+                     <passengerGstnNumber>?</passengerGstnNumber>
+                     <passengerName>?</passengerName>
+                     <!--Optional:-->
+                     <passengerState>?</passengerState>
+                     <!--Optional:-->
+                     <passengerZone>?</passengerZone>
+                  </passengerGstnDetails>
+                  <passengerOrSupplierGst>?</passengerOrSupplierGst>
+                  <supplierGstnDetails>
+                     <supplierAddress>Indian Railways</supplierAddress>
+                     <supplierGstnNumber>?</supplierGstnNumber>
+                     <supplierName>Indian Railways</supplierName>
+                     <supplierStateCode>?</supplierStateCode>
+                     <supplierZoneCode>?</supplierZoneCode>
+                  </supplierGstnDetails>
+               </gstnDetails>
+               <!--1 or more repetitions:-->
+               <guestDetailsList>
+                  <age>?</age>
+                  <name>?</name>
+                  <!--Optional:-->
+                  <pnrStatus>?</pnrStatus>
+                  <roomNumber>?</roomNumber>
+                  <sex>?</sex>
+               </guestDetailsList>
+               <guestInfo>
+                  <contactNumber>?</contactNumber>
+                  <!--Optional:-->
+                  <email>?</email>
+                  <idNumber>?</idNumber>
+                  <identityProof>?</identityProof>
+               </guestInfo>
+               <numberOfAdults>?</numberOfAdults>
+               <quota>?</quota>
+               <reservationStation>?</reservationStation>
+               <!--1 or more repetitions:-->
+               <roomDetailList>
+                  <!--Optional:-->
+                  <acStatus>?</acStatus>
+                  <!--Optional:-->
+                  <bedType>?</bedType>
+                  <!--Optional:-->
+                  <roomAmenities>?</roomAmenities>
+                  <roomNo>?</roomNo>
+                  <!--Optional:-->
+                  <roomStatus>?</roomStatus>
+                  <!--Optional:-->
+                  <roomType>?</roomType>
+                  <!--1 or more repetitions:-->
+                  <slotTarrifList>
+                     <!--Optional:-->
+                     <cgstTaxAmnt>?</cgstTaxAmnt>
+                     <checkInTime>?</checkInTime>
+                     <checkInTime24Hrs>?</checkInTime24Hrs>
+                     <checkOutTime>?</checkOutTime>
+                     <checkOutTime24Hrs>?</checkOutTime24Hrs>
+                     <!--Optional:-->
+                     <igstTaxAmnt>?</igstTaxAmnt>
+                     <!--Optional:-->
+                     <refundAmount>?</refundAmount>
+                     <!--Optional:-->
+                     <serviceTax>?</serviceTax>
+                     <!--Optional:-->
+                     <sgstTaxAmnt>?</sgstTaxAmnt>
+                     <slotDuration>?</slotDuration>
+                     <tarrifRate>?</tarrifRate>
+                     <!--Optional:-->
+                     <totalGstAmnt>?</totalGstAmnt>
+                     <!--Optional:-->
+                     <ugstTaxAmnt>?</ugstTaxAmnt>
+                  </slotTarrifList>
+               </roomDetailList>
+               <!--Optional:-->
+               <taxInvoiceNo>?</taxInvoiceNo>
+               <!--Optional:-->
+               <totalAmount>?</totalAmount>
+               <transactionID>?</transactionID>
+               <travelAuthority>?</travelAuthority>
+               <travelAuthorityNumber>?</travelAuthorityNumber>
+               <upgradedTransactionID>?</upgradedTransactionID>
+            </previousBookedRoomDetails>
+            <previousBookingRefNbr>?</previousBookingRefNbr>
+         </arg0>
+      </ws:upgradeReservation>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/upgradeReservationRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="writeToCSV" bindingOperationName="writeToCSV" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://10.64.29.239:8080/rrws/RetiringRoomServices</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ws="http://ws.rr.cris.com/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ws:writeToCSV/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>Global HTTP Settings</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://ws.rr.cris.com/RetiringRoomServices/writeToCSVRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>

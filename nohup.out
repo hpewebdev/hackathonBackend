@@ -1,0 +1,7091 @@
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (/opt/Hackathon/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/opt/Hackathon/index.js:31:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1345:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+Server started at http://localhost:443
+{ user_id: 'Team1', password: 'Team1' }
+Connected to database as id 68739
+User: Team1, logged in at 2024-02-12 11:00:26 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 11:01:01 
+Reconciliation2024-02-05_Team1_round1.csv
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 11:03:58 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 11:13:13 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 11:13:42 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 11:17:56 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 11:18:08 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 11:27:11 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 11:30:52 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 11:31:03 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 11:31:23 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 11:31:34 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 11:33:50 
+Server started at http://localhost:443
+In side Round 2 upload
+Passed Round 2 if condition
+HPE Dev Team Work details1_admin_round2.xlsx WPRS Coper Page_admin_round2.xlsx
+Connected to database as id 68740
+{ user_id: 'Team2', password: 'TEAM2' }
+User: Team2, logged in at 2024-02-12 11:37:51 
+{ user_id: 'Team1', password: 'tEAM1' }
+User: Team1, logged in at 2024-02-12 11:38:10 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 11:38:37 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 11:39:20 
+Server started at http://localhost:443
+Inside Multer BlockHPE Dev Team Work details1_admin_round2.xlsx
+Inside Multer BlockWPRS Coper Page_admin_round2.xlsx
+In side Round 2 uploadadmin
+HPE Dev Team Work details1_admin_round2.xlsx WPRS Coper Page_admin_round2.xlsx
+Connected to database as id 68741
+Inside Multer BlockHPE Dev Team Work details1_admin_round2.xlsx
+Inside Multer BlockWPRS Coper Page_admin_round2.xlsx
+In side Round 2 uploadadmin
+HPE Dev Team Work details1_admin_round2.xlsx WPRS Coper Page_admin_round2.xlsx
+{ user_id: 'Team2', password: 'TEAM2' }
+User: Team2, logged in at 2024-02-12 11:41:12 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 11:41:50 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 11:42:59 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 11:43:50 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 11:44:19 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 11:44:43 
+Inside Multer BlockHPE Dev Team Work details1_admin_round2.xlsx
+Inside Multer BlockWPRS Coper Page_admin_round2.xlsx
+In side Round 2 uploadadmin
+HPE Dev Team Work details1_admin_round2.xlsx WPRS Coper Page_admin_round2.xlsx
+{ user_id: 'TEAM2', password: 'TEAM2' }
+User: TEAM2, logged in at 2024-02-12 11:47:38 
+Inside Multer Blockdownload_Team2_round2.htm
+Inside Multer BlockReconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+In side Round 2 uploadTeam2
+download_Team2_round2.htm Reconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+Inside Multer Blockdownload_Team2_round2.htm
+Inside Multer BlockReconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+In side Round 2 uploadTeam2
+download_Team2_round2.htm Reconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+Inside Multer Blockdownload_Team2_round2.htm
+Inside Multer BlockReconciliation2024-02-05_Team2_round2.csv
+In side Round 2 uploadTeam2
+download_Team2_round2.htm Reconciliation2024-02-05_Team2_round2.csv
+Inside Multer BlockReconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+Inside Multer BlockReconciliation2024-02-05_Team2_round2.csv
+In side Round 2 uploadTeam2
+Reconciliation2024-02-04_CRISCLOUD_Team2_round2.htm Reconciliation2024-02-05_Team2_round2.csv
+Inside Multer BlockRR-INET-Prod-29-85-soapui-project_Team2_round2.xml
+Inside Multer BlockRR-INET-DEV-10-64-6-71-soapui-project_Team2_round2.xml
+In side Round 2 uploadTeam2
+RR-INET-Prod-29-85-soapui-project_Team2_round2.xml RR-INET-DEV-10-64-6-71-soapui-project_Team2_round2.xml
+Inside Multer BlockRR-INET-DEV-10-64-6-71-soapui-project_Team2_round2.xml
+Inside Multer BlockRR-INET-Prod-29-85-soapui-project_Team2_round2.xml
+In side Round 2 uploadTeam2
+RR-INET-DEV-10-64-6-71-soapui-project_Team2_round2.xml RR-INET-Prod-29-85-soapui-project_Team2_round2.xml
+Server started at http://localhost:443
+Connected to database as id 68742
+Server started at http://localhost:443
+Connected to database as id 68743
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:49:07 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:50:45 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:51:10 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:52:33 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:57:41 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 12:57:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:57:56 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:58:02 
+{ user_id: 'admin', password: 'aadmin' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 12:59:51 
+{ user_id: 'Team1', password: 'TEAM1' }
+User: Team1, logged in at 2024-02-12 13:00:17 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:02:21 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:03:13 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:04:59 
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68744
+User: admin, logged in at 2024-02-12 13:05:18 
+sending email
+hpewebdev@gmail.com
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 13:07:21 
+sending email
+hpewebdev@gmail.com
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:08:22 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:08:50 
+{ user_id: 'Team1', password: 'Tean1' }
+{ user_id: 'Team1', password: 'team1' }
+User: Team1, logged in at 2024-02-12 13:09:08 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:09:26 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 13:12:16 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:12:23 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:12:48 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:13:39 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:15:37 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 13:15:47 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 13:15:54 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 13:16:06 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:16:33 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:22:03 
+/opt/Hackathon/contactus.js:19
+router.get('/',verifyToken, async (req, res) => {
+               ^
+
+ReferenceError: verifyToken is not defined
+    at Object.<anonymous> (/opt/Hackathon/contactus.js:19:16)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/opt/Hackathon/index.js:13:25)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+Server started at http://localhost:443
+Connected to database as id 68745
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:23:41 
+sending email
+hpewebdev@gmail.com
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 13:25:12 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:25:24 
+sending email
+hpewebdev@gmail.com
+Server started at http://localhost:443
+sending email
+Test Body Test Subject
+hpewebdev@gmail.com
+{ user_id: 'Team1', password: 'Team1' }
+Connected to database as id 68746
+User: Team1, logged in at 2024-02-12 13:32:28 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 13:37:59 
+Server started at http://localhost:443
+sending email
+Test Body Test Subject
+hpewebdev@gmail.com
+sending email
+Testing Contact Us Generative AI Subject
+hpewebdev@gmail.com
+sending email
+I am having query that what type of file I am supposed to upload.  File Type 
+hpewebdev@gmail.com
+Connected to database as id 68747
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 13:52:40 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 13:54:55 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 13:59:56 
+Inside Multer Blockdownload_Team2_round2.htm
+Inside Multer BlockReconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+In side Round 2 uploadTeam2
+download_Team2_round2.htm Reconciliation2024-02-04_CRISCLOUD_Team2_round2.htm
+{ user_id: 'admin%&^%^&', password: 'admin' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 14:02:56 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 14:04:41 
+Inside Multer BlockHPE Dev Team Work details._Team1_round1.xlsx
+HPE Dev Team Work details._Team1_round1.xlsx
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+sending email
+Dear Sir, this application is not working. Please help me on call. 8130194270 my calling no.
+ Application Not working
+hpewebdev@gmail.com
+sending email
+Dear Sir, this application is not working. Please help me on call. 8130194270 my calling no.
+ Application Not working
+hpewebdev@gmail.com
+sending email
+Dear Sir, this application is not working. Please help me on call. 8130194270 my calling no.
+ Application Not working
+hpewebdev@gmail.com
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 14:12:24 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 14:16:03 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 14:17:13 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 14:18:06 
+Server started at http://localhost:443
+Error sending email: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:40:20
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Connected to database as id 68748
+{ user_id: 'Team3', password: 'tEAM3' }
+User: Team3, logged in at 2024-02-12 14:21:21 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 14:21:56 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 14:25:29 
+Error sending email: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:40:20
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Server started at http://localhost:443
+Error sending email: TypeError: con.query is not a function
+    at /opt/Hackathon/contactus.js:40:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+{ user_id: 'admin', password: 'admuin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admuin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+Error sending email: TypeError: con.query is not a function
+    at /opt/Hackathon/contactus.js:40:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Server started at http://localhost:443
+Error acquiring connection: ReferenceError: pool is not defined
+    at module.exports (/opt/Hackathon/connection.js:18:24)
+    at /opt/Hackathon/contactus.js:38:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+Error sending email: ReferenceError: pool is not defined
+    at module.exports (/opt/Hackathon/connection.js:18:24)
+    at /opt/Hackathon/contactus.js:38:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+Error acquiring connection: ReferenceError: pool is not defined
+    at module.exports (/opt/Hackathon/connection.js:18:24)
+    at /opt/Hackathon/contactus.js:38:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+Error sending email: ReferenceError: pool is not defined
+    at module.exports (/opt/Hackathon/connection.js:18:24)
+    at /opt/Hackathon/contactus.js:38:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+{ user_id: 'admin', password: 'admin' }
+TypeError: con.query is not a function
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7)
+    at /opt/Hackathon/node_modules/cors/lib/index.js:224:17
+Server started at http://localhost:443
+Error fetching team info: TypeError: con.query is not a function
+    at /opt/Hackathon/contactus.js:43:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:55:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error fetching team info: TypeError: con.query is not a function
+    at /opt/Hackathon/contactus.js:43:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:55:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Server started at http://localhost:443
+admin
+Error fetching team info: TypeError: con.query is not a function
+    at /opt/Hackathon/contactus.js:44:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:56:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+TypeError: con.query is not a function
+    at /opt/Hackathon/teams.js:22:9
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/opt/Hackathon/node_modules/express/lib/router/index.js:175:3)
+    at router (/opt/Hackathon/node_modules/express/lib/router/index.js:47:12)
+TypeError: con.query is not a function
+    at /opt/Hackathon/teams.js:22:9
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/opt/Hackathon/node_modules/express/lib/router/index.js:175:3)
+    at router (/opt/Hackathon/node_modules/express/lib/router/index.js:47:12)
+Server started at http://localhost:443
+sending email
+Test Body Test Subject
+hpewebdev@gmail.com
+Server started at http://localhost:443
+admin
+Error fetching team info: TypeError: con.promise is not a function
+    at /opt/Hackathon/contactus.js:46:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:58:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Server started at http://localhost:443
+admin
+Error fetching team info: TypeError: undefined is not a function
+    at /opt/Hackathon/contactus.js:46:20
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:65:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Connected to database as id 68750
+Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+    at /opt/Hackathon/contactus.js:46:24
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'admin' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'SELECT Leader_Email, Team_Member_Email_1, Team_Member_Email_2, Team_Member_Email_3 FROM mst_team WHERE Team_Name = admin'
+}
+/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at Query.<anonymous> (/opt/Hackathon/contactus.js:49:25)
+    at Query.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/opt/Hackathon/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Server started at http://localhost:443
+admin
+Error fetching team info: TypeError: undefined is not a function
+    at /opt/Hackathon/contactus.js:46:20
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:65:23
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Connected to database as id 68751
+Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+    at /opt/Hackathon/contactus.js:46:24
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'admin' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'SELECT Leader_Email, Team_Member_Email_1, Team_Member_Email_2, Team_Member_Email_3 FROM mst_team WHERE Team_Name = admin'
+}
+/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at Query.<anonymous> (/opt/Hackathon/contactus.js:49:25)
+    at Query.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/opt/Hackathon/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Server started at http://localhost:443
+admin
+Error fetching team info: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:46:20
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:65:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Connected to database as id 68752
+Error: ER_BAD_FIELD_ERROR: Unknown column 'admin' in 'where clause'
+    at Query.Sequence._packetToError (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+    at /opt/Hackathon/contactus.js:46:30
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'admin' in 'where clause'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'SELECT Leader_Email, Team_Member_Email_1, Team_Member_Email_2, Team_Member_Email_3 FROM mst_team WHERE Team_Name = admin'
+}
+/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at Query.<anonymous> (/opt/Hackathon/contactus.js:49:25)
+    at Query.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/opt/Hackathon/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:92:8)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Server started at http://localhost:443
+admin
+Error fetching team info: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:46:20
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:65:23
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Connected to database as id 68753
+/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at Query.<anonymous> (/opt/Hackathon/contactus.js:51:25)
+    at Query.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/opt/Hackathon/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:133:8) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+Server started at http://localhost:443
+sending email
+Test Body Test Subject
+hpewebdev@gmail.com
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68754
+User: admin, logged in at 2024-02-12 15:20:01 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 15:21:04 
+sending email
+Testing ...... Final Contact Us Tesing
+hpewebdev@gmail.com
+Inside Multer Blockdownload_Team1_round1.htm
+download_Team1_round1.htm
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 15:25:10 
+Inside Multer Blocksettings_Team2_round2.js
+Inside Multer Blockmap_Team2_round2.css
+In side Round 2 uploadTeam2
+settings_Team2_round2.js map_Team2_round2.css
+Inside Multer Blocksettings_Team2_round2.js
+Inside Multer Blockmap_Team2_round2.css
+In side Round 2 uploadTeam2
+settings_Team2_round2.js map_Team2_round2.css
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+Inside Multer Blockraphael.min_Team2_round2.js
+Inside Multer Blockmap_Team2_round2.css
+In side Round 2 uploadTeam2
+raphael.min_Team2_round2.js map_Team2_round2.css
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 15:35:51 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-12 15:39:51 
+{ user_id: 'Team4', password: 'Team4' }
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 15:40:12 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 15:40:36 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 15:41:30 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 15:41:54 
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68755
+User: admin, logged in at 2024-02-12 15:43:20 
+admin
+Error fetching team data: ReferenceError: sql is not defined
+    at /opt/Hackathon/contactus.js:47:37
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error fetching team info: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:59:31
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:71:27
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+(node:963605) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:114:5
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:963605) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:963605) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+admin
+Error fetching team data: ReferenceError: sql is not defined
+    at /opt/Hackathon/contactus.js:47:37
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error fetching team info: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:59:31
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:71:27
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+    at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+    at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+(node:963605) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:114:5
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at /opt/Hackathon/auth.js:57:16
+    at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+(node:963605) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+events.js:292
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::443
+    at Server.setupListenHandle [as _listen2] (net.js:1318:16)
+    at listenInCluster (net.js:1366:12)
+    at Server.listen (net.js:1452:7)
+    at Function.listen (/opt/Hackathon/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/opt/Hackathon/index.js:31:5)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:72:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1345:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 443
+}
+Server started at http://localhost:443
+admin
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:47:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error fetching team info: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:59:31
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:71:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:964410) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:114:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:964410) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:964410) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68756
+admin
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:47:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error fetching team info: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:59:31
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:71:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:964410) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:114:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:964410) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+Server started at http://localhost:443
+Connected to database as id 68757
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 15:50:51 
+{ user_id: 'TEAM2', password: 'TEAM2' }
+User: TEAM2, logged in at 2024-02-12 15:51:06 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-12 15:51:23 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 15:51:31 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-12 15:53:37 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-12 15:54:15 
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68760
+User: admin, logged in at 2024-02-13 09:29:43 
+admin
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:46:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error fetching team info: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:59:31
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:71:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1146094) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:114:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1146094) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1146094) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Server started at http://localhost:443
+admin
+Line Above Query 
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:47:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error fetching team info: ReferenceError: rows is not defined
+    at /opt/Hackathon/contactus.js:61:31
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:73:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1146893) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:116:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1146893) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1146893) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68761
+Server started at http://localhost:443
+admin
+Line Above Query 
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:47:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:73:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1147306) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:116:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1147306) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1147306) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68762
+admin
+Line Above Query 
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:47:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:73:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1147306) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:116:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1147306) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+Server started at http://localhost:443
+admin
+Line Above Query 
+Error fetching team data: TypeError: (intermediate value) is not iterable
+    at /opt/Hackathon/contactus.js:47:21
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:73:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1148258) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:116:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1148258) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1148258) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68763
+Server started at http://localhost:443
+admin
+Line Above Query 
+Line Below Query 
+<ref *1> Query {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  _callback: undefined,
+  _callSite: Error
+      at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+      at /opt/Hackathon/contactus.js:47:29
+      at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+      at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+      at /opt/Hackathon/auth.js:57:16
+      at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+      at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+      at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+      at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+      at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5),
+  _ended: false,
+  _timeout: undefined,
+  _timer: Timer { _object: [Circular *1], _timeout: null },
+  sql: 'SELECT Leader_Email, Team_Member_Email_1, Team_Member_Email_2, Team_Member_Email_3 FROM mst_team WHERE Team_Name = ? limit 1',
+  values: [ 'admin' ],
+  typeCast: true,
+  nestTables: false,
+  _resultSet: null,
+  _results: [],
+  _fields: [],
+  _index: 0,
+  _loadError: null,
+  [Symbol(kCapture)]: false
+}
+Error fetching team data: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Query'
+    |     property '_timer' -> object with constructor 'Timer'
+    --- property '_object' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (/opt/Hackathon/node_modules/express/lib/response.js:1150:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:271:14)
+    at /opt/Hackathon/contactus.js:56:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:74:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1148675) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:117:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1148675) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1148675) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68764
+Server started at http://localhost:443
+admin
+Line Above Query 
+Line Below Query 
+<ref *1> Query {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  _callback: undefined,
+  _callSite: Error
+      at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+      at /opt/Hackathon/contactus.js:47:29
+      at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+      at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+      at /opt/Hackathon/auth.js:57:16
+      at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+      at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+      at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+      at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+      at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5),
+  _ended: false,
+  _timeout: undefined,
+  _timer: Timer { _object: [Circular *1], _timeout: null },
+  sql: 'SELECT Leader_Email, Team_Member_Email_1, Team_Member_Email_2, Team_Member_Email_3 FROM mst_team WHERE Team_Name = ? limit 1',
+  values: [ 'admin' ],
+  typeCast: true,
+  nestTables: false,
+  _resultSet: null,
+  _results: [],
+  _fields: [],
+  _index: 0,
+  _loadError: null,
+  [Symbol(kCapture)]: false
+}
+Error fetching team data: TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Query'
+    |     property '_timer' -> object with constructor 'Timer'
+    --- property '_object' closes the circle
+    at JSON.stringify (<anonymous>)
+    at stringify (/opt/Hackathon/node_modules/express/lib/response.js:1150:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:271:14)
+    at /opt/Hackathon/contactus.js:56:25
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:74:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1149705) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:117:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1149705) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1149705) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68765
+Server started at http://localhost:443
+admin
+Line Above Query 
+Line Below Query 
+Error fetching team data: TypeError: Cannot read property 'Leader_Email' of undefined
+    at /opt/Hackathon/contactus.js:50:26
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:75:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1151461) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:118:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1151461) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1151461) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68767
+Server started at http://localhost:443
+admin
+Line Above Query 
+Line Below Query 
+<ref *1> Query {
+  _events: [Object: null prototype] {},
+  _eventsCount: 0,
+  _maxListeners: undefined,
+  _callback: undefined,
+  _callSite: Error
+      at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+      at /opt/Hackathon/contactus.js:47:29
+      at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+      at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+      at /opt/Hackathon/auth.js:57:16
+      at /opt/Hackathon/node_modules/jsonwebtoken/verify.js:261:12
+      at getSecret (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:97:14)
+      at Object.module.exports [as verify] (/opt/Hackathon/node_modules/jsonwebtoken/verify.js:101:10)
+      at exports.verifyToken (/opt/Hackathon/auth.js:51:12)
+      at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5),
+  _ended: false,
+  _timeout: undefined,
+  _timer: Timer { _object: [Circular *1], _timeout: null },
+  sql: 'SELECT Leader_Email, Team_Member_Email_1, Team_Member_Email_2, Team_Member_Email_3 FROM mst_team WHERE Team_Name = ? limit 1',
+  values: [ 'admin' ],
+  typeCast: true,
+  nestTables: false,
+  _resultSet: null,
+  _results: [],
+  _fields: [],
+  _index: 0,
+  _loadError: null,
+  [Symbol(kCapture)]: false
+}
+Error fetching team data: TypeError: Cannot read property 'Leader_Email' of undefined
+    at /opt/Hackathon/contactus.js:52:26
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error sending email: ReferenceError: row is not defined
+    at /opt/Hackathon/contactus.js:76:27
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(node:1152121) UnhandledPromiseRejectionWarning: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:558:11)
+    at ServerResponse.header (/opt/Hackathon/node_modules/express/lib/response.js:794:10)
+    at ServerResponse.send (/opt/Hackathon/node_modules/express/lib/response.js:174:12)
+    at ServerResponse.json (/opt/Hackathon/node_modules/express/lib/response.js:278:15)
+    at handleError (/opt/Hackathon/contactus.js:12:19)
+    at /opt/Hackathon/contactus.js:119:5
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:1152121) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:1152121) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+Connected to database as id 68768
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68769
+User: admin, logged in at 2024-02-13 10:35:59 
+admin
+No team found with the given name.
+Server started at http://localhost:443
+admin
+No team found with the given name.
+Connected to database as id 68770
+Server started at http://localhost:443
+admin
+Connected to database as id 68771
+Email sent successfully: <c93c9496-2fbc-3ef5-c636-c8986678a4d5@cris.org.in>
+admin
+Email sent successfully: <f9099b65-b24e-a450-084e-956171e2cfb7@cris.org.in>
+admin
+Email sent successfully: <ef3dc686-3add-980d-a543-d382eb4814a8@cris.org.in>
+Server started at http://localhost:443
+admin
+Connected to database as id 68773
+Email sent successfully: <6e2ec7e6-5400-d170-f801-4c270e028d33@cris.org.in>
+admin
+Email sent successfully: <ceb3e3db-8420-962e-dd56-5950f3ad7751@cris.org.in>
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+mohanty.d@hotmail.com Teamcris
+Connected to database as id 68774
+Connected to database as id 68775
+Email sent successfully!
+{ user_id: 'deba', password: 'mohanty' }
+User: deba, logged in at 2024-02-13 12:12:55 
+{ user_id: 'Teamcris', password: 'abcd' }
+User: Teamcris, logged in at 2024-02-13 12:14:16 
+Inside Multer Blockcopy_Teamcris_round1.txt
+copy_Teamcris_round1.txt
+{ user_id: 'deba', password: 'mohanty' }
+User: deba, logged in at 2024-02-13 12:15:55 
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+{ user_id: 'Teamcris', password: 'abcd' }
+User: Teamcris, logged in at 2024-02-13 12:17:19 
+Teamcris
+Email sent successfully: <69353e69-2a55-a659-29a1-bea6667c64e6@cris.org.in>
+above sendemaill call
+inside function
+rmrkailash@gmail.com
+rmrkailash@gmail.com kailash
+Email sent successfully!
+{ user_id: 'kailash', password: 'aaaaaa' }
+User: kailash, logged in at 2024-02-13 12:23:22 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-13 12:24:46 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-13 12:34:01 
+{ user_id: 'kailash', password: 'aaaaaa' }
+User: kailash, logged in at 2024-02-13 12:35:09 
+Inside Multer Blocktext_kailash_round1.txt
+Inside Multer Blocktext_kailash_round1.txt
+In side Round 2 uploadkailash
+above sendemaill call
+inside function
+shushar.1194@gmail.com
+shushar.1194@gmail.com CRIS
+Email sent successfully!
+{ user_id: 'CRIS', password: 'cris' }
+User: CRIS, logged in at 2024-02-13 12:41:25 
+above sendemaill call
+inside function
+shushar.1194@gmail.com
+shushar.1194@gmail.com CRIS
+Email sent successfully!
+{ user_id: 'CRIS', password: 'cris' }
+User: CRIS, logged in at 2024-02-13 12:42:48 
+Server started at http://localhost:443
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+TypeError: otpcode.generateRandomNumber is not a function
+    at /opt/Hackathon/register.js:65:34
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Connected to database as id 68776
+Connected to database as id 68778
+Connected to database as id 68777
+Email sent successfully!
+Server started at http://localhost:443
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+497428
+ReferenceError: sendMessageToMobileNumber is not defined
+    at /opt/Hackathon/register.js:68:1
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Connected to database as id 68779
+Connected to database as id 68780
+Connected to database as id 68781
+Email sent successfully!
+Server started at http://localhost:443
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+567989
+Connected to database as id 68782
+Connected to database as id 68783
+Connected to database as id 68784
+Email sent successfully!
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+Sent OTP 567989 to 7008816424
+mohanty.d@hotmail.com wefwe
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68785
+User: admin, logged in at 2024-02-13 13:38:54 
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+Your OTP is: 963321
+Sent OTP 963321 to 7008816424
+mohanty.d@hotmail.com wefwe
+Connected to database as id 68787
+Connected to database as id 68788
+Email sent successfully!
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-13 14:12:05 
+above sendemaill call
+inside function
+leader_name@cris.org.in
+Your OTP is: 749317
+Sent OTP 749317 to 1234567890
+leader_name@cris.org.in Myteam_name
+Email sent successfully!
+{ user_id: 'Myteam_name', password: 'password' }
+User: Myteam_name, logged in at 2024-02-13 16:18:08 
+Inside Multer BlockAdobe Scan 7 Feb 2024_Myteam_name_round1.pdf
+Adobe Scan 7 Feb 2024_Myteam_name_round1.pdf
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-13 16:19:47 
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+{ user_id: 'Myteam_name', password: 'password' }
+User: Myteam_name, logged in at 2024-02-13 16:26:50 
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68799
+User: admin, logged in at 2024-02-14 08:33:34 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:35:28 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:51:27 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:51:29 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:53:03 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:53:05 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:55:52 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:55:53 
+{ user_id: 'admin', password: "admin'" }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:57:39 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:58:10 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 08:58:24 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 09:19:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:18:37 
+{ user_id: 'cris', password: 'cris' }
+User: cris, logged in at 2024-02-14 10:19:00 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:26:37 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:29:07 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:30:31 
+{ user_id: 'admin', password: 'dnkdn' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:31:24 
+{ user_id: 'admin', password: "'or'1'='1" }
+{ user_id: 'admin', password: "'or'1'='1" }
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 10:33:24 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 10:34:08 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:34:16 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 10:34:32 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 10:34:51 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:37:38 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:38:19 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:39:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:40:11 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:45:21 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 10:57:50 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:03:27 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:10:19 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:10:28 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:13:25 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:16:07 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:16:14 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 11:17:32 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:20:42 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 11:20:59 
+{ user_id: 'as', password: 'as' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:30:10 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 11:32:44 
+{ user_id: 'adad', password: 'hkjhkjjhjkj' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 12:06:34 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 12:06:58 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 12:09:14 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 12:09:34 
+{ user_id: 'ad', password: 'adsaasd' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 12:15:44 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 12:55:16 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 12:55:29 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 13:01:36 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 13:03:50 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 13:09:57 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 13:10:12 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 13:10:25 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 13:10:36 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 13:14:39 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 13:16:40 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 13:16:50 
+{ user_id: 'Team1', password: 'TEAM1' }
+User: Team1, logged in at 2024-02-14 13:17:01 
+{ user_id: 'register', password: 'register' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 13:18:57 
+above sendemaill call
+inside function
+wa@cris.org.in
+Your OTP is: 239600
+Sent OTP 239600 to 9717822078
+wa@cris.org.in WATeam
+Connected to database as id 68804
+Connected to database as id 68803
+Email sent successfully!
+{ user_id: 'wateam', password: 'temp' }
+User: wateam, logged in at 2024-02-14 14:22:29 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 14:23:59 
+{ user_id: 'kailash', password: 'aaaaaa' }
+User: kailash, logged in at 2024-02-14 14:24:44 
+kailash
+Email sent successfully: <888379ee-9375-9e4f-2664-19d380e72c63@cris.org.in>
+{ user_id: 'wateam', password: 'temp' }
+User: wateam, logged in at 2024-02-14 14:35:14 
+{ user_id: 'ad', password: 'ad' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 14:51:12 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 14:52:04 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 14:56:42 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 14:56:54 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 15:03:12 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 15:13:50 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-14 15:14:41 
+{ user_id: 'Team2', password: 'Team' }
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-14 15:15:18 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-14 15:15:33 
+{ user_id: 'Team2', password: 'team2' }
+User: Team2, logged in at 2024-02-14 15:16:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 15:17:43 
+{ user_id: 'wateam', password: 'temp' }
+User: wateam, logged in at 2024-02-14 15:28:24 
+above sendemaill call
+inside function
+hpewebprs@gmail.com
+Your OTP is: 271341
+Sent OTP 271341 to 9717822078
+hpewebprs@gmail.com hpewebprs
+Email sent successfully!
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 221867
+Sent OTP 221867 to 9717822078
+hpewebdev@gmail.com hpewa
+Email sent successfully!
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 970702
+Sent OTP 970702 to 9717822078
+hpewebdev@gmail.com hpew
+Email sent successfully!
+{ user_id: 'hpew', password: 'temp' }
+User: hpew, logged in at 2024-02-14 16:05:19 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-14 16:07:59 
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68811
+User: admin, logged in at 2024-02-15 08:58:47 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 11:34:25 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 11:42:02 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 11:47:25 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 14:13:15 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 14:13:45 
+{ user_id: 'Team', password: 'Team1' }
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 14:18:48 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 14:20:33 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 14:24:16 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 14:27:35 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 14:59:53 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-15 15:13:04 
+{ user_id: 'Team3', password: 'tEAM3' }
+User: Team3, logged in at 2024-02-15 15:16:52 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-15 15:18:47 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 15:21:13 
+{ user_id: 'Team1', password: 'tEAM1' }
+User: Team1, logged in at 2024-02-15 15:22:39 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-15 15:31:06 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-15 15:31:54 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 15:33:13 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-15 15:35:12 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 15:35:27 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-15 15:35:35 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 15:36:06 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-15 15:39:03 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-15 15:39:49 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-15 15:40:02 
+{ user_id: 'register', password: 'R' }
+Connected to database as id 68827
+{ user_id: 'Team1', password: 'RT' }
+{ user_id: 'Team1', password: 'RT' }
+{ user_id: 'Team1', password: 'Team12' }
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 08:20:59 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-16 08:23:21 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-16 08:23:34 
+{ user_id: 'Team2', password: 'tEAM2' }
+User: Team2, logged in at 2024-02-16 08:23:47 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 08:25:09 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-16 08:26:33 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 08:35:04 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 08:43:18 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 09:01:17 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 09:12:01 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 09:13:05 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-16 09:16:47 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-16 09:55:04 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 09:56:26 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-16 09:57:53 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 09:59:24 
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qe', password: 'qwe' }
+{ user_id: 'qw', password: 'qwe' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 10:03:11 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 10:34:46 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 10:45:52 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 10:48:56 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 10:49:47 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 10:51:40 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 11:05:03 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 11:05:28 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-16 11:05:39 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 13:13:22 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:17:03 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:18:40 
+{ user_id: 'Team1', password: 'tEama1' }
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 13:21:44 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:24:41 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:45:38 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:47:08 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:48:04 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:48:28 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:49:38 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:50:31 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:50:44 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:51:42 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:51:56 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 13:52:38 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:55:19 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 13:56:44 
+{ user_id: 'ADMIN', password: 'ADMIN' }
+User: ADMIN, logged in at 2024-02-16 14:06:21 
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 930455
+Sent OTP 930455 to 9717822078
+hpewebdev@gmail.com GenAI
+Connected to database as id 68829
+Connected to database as id 68828
+Email sent successfully!
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 112458
+Sent OTP 112458 to 9717822078
+hpewebdev@gmail.com GenAI
+Email sent successfully!
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68830
+User: admin, logged in at 2024-02-16 14:31:37 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 14:50:59 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 14:54:12 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 14:55:14 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 14:55:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 15:01:56 
+/opt/Hackathon/register.js:72
+    res.json({ message: 'Thank you for joining our exciting AI/ML hackathon! Your passion for innovation and learning is truly commendable. 
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (internal/modules/cjs/loader.js:979:16)
+    at Module._compile (internal/modules/cjs/loader.js:1027:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)
+    at Module.require (internal/modules/cjs/loader.js:952:19)
+    at require (internal/modules/cjs/helpers.js:88:18)
+    at Object.<anonymous> (/opt/Hackathon/index.js:8:24)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+Server started at http://localhost:443
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 609091
+Sent OTP 609091 to 987654321
+hpewebdev@gmail.com abc
+Connected to database as id 68832
+Connected to database as id 68833
+Connected to database as id 68834
+Email sent successfully!
+{ user_id: 'deba', password: 'mohanty' }
+User: deba, logged in at 2024-02-16 15:07:18 
+{ user_id: 'deba', password: 'mohanty' }
+User: deba, logged in at 2024-02-16 15:08:06 
+{ user_id: 'deba', password: 'mohanty' }
+User: deba, logged in at 2024-02-16 15:08:26 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 15:08:47 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 15:14:35 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 15:16:57 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-16 15:17:11 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 15:25:31 
+{ user_id: 'Team', password: 'Team1' }
+{ user_id: 'Team1', password: 'Team11' }
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 15:54:58 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-16 16:11:52 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-16 16:12:02 
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68839
+User: admin, logged in at 2024-02-19 08:34:40 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 08:38:12 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 08:43:28 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 08:44:32 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 08:57:41 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 08:59:08 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:03:05 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:06:37 
+{ user_id: 'admin', password: 'admuin' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:08:04 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:11:34 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:12:15 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:12:23 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:12:53 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:13:26 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:14:41 
+{ user_id: 'Team1', password: 'team1' }
+User: Team1, logged in at 2024-02-19 09:14:51 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:15:11 
+{ user_id: 'TEAM2', password: 'TEAM2 ​ Username' }
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "SELECT id, round_no, Otp_Verified, Role_ID, User_Name FROM mst_accnts WHERE User_Name = 'TEAM2' AND pass = 'TEAM2 ​ Username' AND Enabled = 1;"
+}
+{ user_id: 'TEAM2', password: 'tEAM2' }
+User: TEAM2, logged in at 2024-02-19 09:15:39 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:18:52 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-19 09:19:05 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:20:45 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:23:00 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:23:09 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:31:32 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:32:46 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:34:37 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:38:29 
+{ user_id: 'Team2', password: 'Team2' }
+User: Team2, logged in at 2024-02-19 09:38:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:40:14 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 09:40:43 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:42:10 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:43:55 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:47:02 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:47:47 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:49:10 
+{ user_id: 'Team1', password: 'team11' }
+{ user_id: 'Team1', password: 'team1' }
+User: Team1, logged in at 2024-02-19 09:49:27 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-19 09:50:51 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-19 09:51:28 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:51:38 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:52:42 
+{ user_id: 'Team3', password: 'Team3' }
+User: Team3, logged in at 2024-02-19 09:53:06 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 09:54:09 
+{ user_id: 'ADMIN', password: 'ADMIN' }
+User: ADMIN, logged in at 2024-02-19 09:56:25 
+{ user_id: 'ADMIN', password: 'ADMIN' }
+User: ADMIN, logged in at 2024-02-19 10:04:17 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:06:24 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:11:51 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:26:10 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:26:51 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:27:14 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 10:27:30 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:30:49 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:33:25 
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 681883
+Sent OTP 681883 to 9717822078
+hpewebdev@gmail.com adminTeam
+Connected to database as id 68841
+Connected to database as id 68842
+Email sent successfully!
+{ user_id: 'adminTeam', password: 'admin' }
+User: adminTeam, logged in at 2024-02-19 10:38:58 
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 772893
+Sent OTP 772893 to 9717822078
+hpewebdev@gmail.com TeamAdmin
+Email sent successfully!
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+Your OTP is: 324096
+Sent OTP 324096 to 9999999999
+mohanty.d@hotmail.com Cris1
+above sendemaill call
+inside function
+mohanty.d@hotmail.com
+Your OTP is: 811649
+Sent OTP 811649 to 9999999999
+mohanty.d@hotmail.com Cris1
+Email sent successfully!
+Email sent successfully!
+{ user_id: 'cris1', password: '123' }
+{ user_id: 'cris1', password: '1233' }
+{ user_id: 'cris1', password: '1233' }
+{ user_id: 'cris1', password: '1233' }
+{ user_id: 'cris1', password: '1233' }
+{ user_id: 'cris1', password: '123456' }
+User: cris1, logged in at 2024-02-19 10:49:44 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:50:45 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 10:52:35 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 11:14:41 
+above sendemaill call
+inside function
+hpewebdev@gmail.com
+Your OTP is: 286819
+Sent OTP 286819 to 9717822078
+hpewebdev@gmail.com Team1
+Email sent successfully!
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 11:31:28 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 11:31:47 
+{ user_id: 'Team1', password: 'TEAM1' }
+User: Team1, logged in at 2024-02-19 11:32:07 
+Inside Multer Blockdownload_Team1_round1.htm
+download_Team1_round1.htm
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 11:33:51 
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 11:37:17 
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'Team2', password: 'Team2' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 11:42:19 
+{ user_id: 'ad', password: 'ad' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 11:55:40 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-19 11:59:23 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 14:18:53 
+above sendemaill call
+inside function
+rmrkailash@gmail.com
+Your OTP is: 134615
+Sent OTP 134615 to 8130797490
+rmrkailash@gmail.com cris
+Email sent successfully!
+{ user_id: 'cris', password: 'cris' }
+User: cris, logged in at 2024-02-19 14:22:04 
+{ user_id: 'cris', password: 'cris' }
+User: cris, logged in at 2024-02-19 14:23:40 
+Inside Multer BlockNPS_2024_cris_round1.pdf
+NPS_2024_cris_round1.pdf
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 14:24:44 
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+above sendemaill call
+inside function
+saha.poonam@cris.org.in
+Your OTP is: 253365
+Sent OTP 253365 to 7217709662
+saha.poonam@cris.org.in Poonam
+Email sent successfully!
+{ user_id: 'poonam', password: 'password' }
+User: poonam, logged in at 2024-02-19 15:48:04 
+Inside Multer BlockDoPT Circular on Mission LIFE, Yoga and Cyber Security Courses_Poonam_round1.pdf
+DoPT Circular on Mission LIFE, Yoga and Cyber Security Courses_Poonam_round1.pdf
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-19 15:50:31 
+Error sending message: connect ETIMEDOUT 202.87.33.165:80
+Server started at http://localhost:443
+1085
+Connected to database as id 68892
+1893
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:47:12 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:47:50 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:47:55 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:47:56 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:48:01 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:48:24 
+1085
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:48:54 
+{ user_id: 'ad', password: 'ad' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 12:49:50 
+1085
+1893
+1898
+1856
+Server started at http://localhost:443
+Server started at http://localhost:443
+SyntaxError: Unexpected token  in JSON at position 19
+    at JSON.parse (<anonymous>)
+    at parse (/opt/Hackathon/node_modules/body-parser/lib/types/json.js:92:19)
+    at /opt/Hackathon/node_modules/body-parser/lib/read.js:128:18
+    at AsyncResource.runInAsyncScope (async_hooks.js:198:9)
+    at invokeCallback (/opt/Hackathon/node_modules/raw-body/index.js:238:16)
+    at done (/opt/Hackathon/node_modules/raw-body/index.js:227:7)
+    at IncomingMessage.onEnd (/opt/Hackathon/node_modules/raw-body/index.js:287:7)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+Server started at http://localhost:443
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68894
+User: admin, logged in at 2024-02-20 12:54:36 
+1085
+Server started at http://localhost:443
+1085
+Connected to database as id 68896
+1085
+1085
+1085
+1085
+Connected to database as id 68897
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+Connected to database as id 68898
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+{ user_id: 'Team1', password: 'TTeam1' }
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-20 14:20:40 
+{ user_id: 'TeamAdmin', password: 'temp' }
+User: TeamAdmin, logged in at 2024-02-20 14:21:27 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-20 14:22:23 
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-20 14:24:28 
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+1085
+Server started at http://localhost:443
+Connected to database as id 68913
+Connected to database as id 68914
+john_doe
+Awesome Team
+[ '1085' ]
+Connected to database as id 68916
+Awesome Team
+Awesome Team
+Awesome Team
+Connected to database as id 68917
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+A
+A
+As
+As
+Aso
+Aso
+Asom
+Asom
+Asome
+Asome
+Asom
+Asom
+Aso
+Aso
+As
+As
+A
+A
+Aw
+Aw
+Aws
+Aws
+Awso
+Awso
+Awsom
+Awsom
+Awsome
+Awsome
+Awsome 
+Awsome 
+Awsome T
+Awsome T
+Awsome Te
+Awsome Te
+Awsome Tea
+Awsome Tea
+Awsome Team
+Awsome Team
+undefined
+A
+Aw
+Aws
+Awso
+Awsom
+Awsome
+Awsome 
+Awsome T
+Awsome TE
+Awsome TEA
+Awsome TEAM
+Awesome Team
+Awesome Team
+undefined
+T
+Te
+Tea
+Team
+Team 
+Team A
+Team Aw
+Team Aws
+Team Awso
+Team Awsom
+Team Awsome
+Team Awsom
+Team Awso
+Team Aws
+Team Aw
+Team A
+Team 
+Team
+Tea
+Te
+T
+
+A
+Aw
+Awe
+Awes
+Aweso
+Awesom
+Awesome
+Awesome 
+Awesome T
+Awesome Te
+Awesome Tea
+Awesome Team
+
+undefined
+Awesome Team
+Awesome Team
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+A
+A
+Aw
+Aw
+Awe
+Awe
+Awes
+Awes
+Aweso
+Aweso
+Awesom
+Awesom
+Awesome
+Awesome
+Awesome 
+Awesome 
+Awesome T
+Awesome T
+Awesome Te
+Awesome Te
+Awesome Tea
+Awesome Tea
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+asdasdasd
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+A
+A
+A
+A
+AW
+AW
+AW
+AW
+A
+A
+A
+A
+
+
+
+
+a
+a
+a
+a
+aW
+aW
+aW
+aW
+a
+a
+a
+a
+
+
+
+
+A
+A
+A
+A
+Aw
+Aw
+Aw
+Aw
+Aws
+Aws
+Aws
+Aws
+Awso
+Awso
+Awso
+Awso
+Awsoe
+Awsoe
+Awsoe
+Awsoe
+Awsoem
+Awsoem
+Awsoem
+Awsoem
+Awsoe
+Awsoe
+Awsoe
+Awsoe
+Awso
+Awso
+Awso
+Awso
+Awsoe
+Awsoe
+Awsoe
+Awsoe
+Awso
+Awso
+Awso
+Awso
+Aws
+Aws
+Aws
+Connected to database as id 68918
+Aws
+Aw
+Aw
+Aw
+Aw
+A
+A
+A
+A
+
+
+
+
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+A
+A
+A
+A
+AW
+AW
+AW
+AW
+A
+A
+A
+A
+Aw
+Aw
+Aw
+Aw
+Awe
+Awe
+Awe
+Awe
+Awes
+Awes
+Awes
+Awes
+Aweso
+Aweso
+Aweso
+Aweso
+Awesom
+Awesom
+Awesom
+Awesom
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome t
+Awesome t
+Awesome t
+Awesome t
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome t
+Awesome t
+Awesome t
+Awesome t
+Awesome tE
+Awesome tE
+Awesome tE
+Awesome tE
+Awesome tEA
+Awesome tEA
+Awesome tEA
+Awesome tEA
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+Awesome tEAM
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+A
+A
+A
+A
+Aw
+Aw
+Aw
+Aw
+Aws
+Aws
+Aws
+Aws
+Aw
+Aw
+Aw
+Aw
+Awe
+Awe
+Awe
+Awe
+Awes
+Awes
+Awes
+Awes
+Aweso
+Aweso
+Aweso
+Aweso
+Awesom
+Awesom
+Awesom
+Awesom
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome T
+Awesome T
+Awesome T
+Awesome T
+Awesome Te
+Awesome Te
+Awesome Te
+Awesome Te
+Awesome Tea
+Awesome Tea
+Awesome Tea
+Awesome Tea
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+T
+T
+T
+T
+Te
+Te
+Te
+Te
+Tea
+Tea
+Tea
+Tea
+Team
+Team
+Team
+Team
+Tea
+Tea
+Tea
+Tea
+Te
+Te
+Te
+Te
+T
+T
+T
+T
+
+
+
+
+A
+A
+A
+A
+Aw
+Aw
+Aw
+Aw
+Aws
+Aws
+Aws
+Aws
+Awso
+Awso
+Awso
+Awso
+Awsom
+Awsom
+Awsom
+Awsom
+Awso
+Awso
+Awso
+Awso
+Aws
+Aws
+Aws
+Aws
+Aw
+Aw
+Aw
+Aw
+Awe
+Awe
+Awe
+Awe
+Awes
+Awes
+Awes
+Awes
+Awese
+Awese
+Awese
+Awese
+Aweseo
+Aweseo
+Aweseo
+Aweseo
+Aweseom
+Aweseom
+Aweseom
+Aweseom
+Aweseo
+Aweseo
+Aweseo
+Aweseo
+Awese
+Awese
+Awese
+Awese
+Awes
+Awes
+Awes
+Awes
+Aweso
+Aweso
+Aweso
+Aweso
+Awesom
+Awesom
+Awesom
+Awesom
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome T
+Awesome T
+Awesome T
+Awesome T
+Awesome Te
+Awesome Te
+Awesome Te
+Awesome Te
+Awesome Tea
+Awesome Tea
+Awesome Tea
+Awesome Tea
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+true
+
+
+A
+A
+Aw
+Aws
+Awso
+Awsom
+Awsome
+Awsome 
+Awsome 
+Awsome T
+Awsome TE
+Awsome TEA
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awsome TEAM
+AwEsome TEAM
+Awsome TEAM
+Awsome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome TEA
+Awesome TE
+Awesome T
+Awesome Te
+Awesome Tea
+Awesome Team
+Awesome Team 
+Awesome Team 
+Awesome Team 
+Awesome Team 
+Awesome Team 
+Awesome Team 
+Awesome Team 
+
+
+A
+AW
+AWE
+AWES
+AWESO
+AWESOM
+AWESOME
+AWESOME 
+AWESOME 
+AWESOME t
+AWESOME t
+AWESOME tE
+AWESOME tEA
+AWESOME tEAM
+AWESOME tEAM 
+AWESOME tEAM
+AWESOME tEA
+AWESOME tE
+AWESOME t
+AWESOME 
+AWESOME
+AWESOM
+AWESO
+AWES
+AWE
+AW
+A
+A
+Aw
+Awe
+Awes
+Aweso
+Awesom
+Awesome
+Awesome 
+Awesome 
+Awesome T
+Awesome T
+Awesome Te
+Awesome Tea
+Awesome Team
+Awesome Tea
+Awesome Te
+Awesome T
+Awesome 
+Awesome
+Awesom
+Aweso
+Awes
+Awe
+Aw
+A
+
+
+
+
+
+
+
+
+C
+CR
+CRI
+CRIS
+CRIS2
+CRIS21
+CRIS2
+CRIS
+CRIS1
+CRIS12
+CRIS1
+CRIS
+CRI
+CR
+C
+
+
+
+
+
+
+
+
+a
+a
+a
+
+A
+A
+Aw
+Awe
+Awes
+Aweso
+Awesom
+Awesome
+Awesome 
+Awesome 
+Awesome T
+Awesome T
+Awesome Te
+Awesome Tea
+Awesome Team
+
+c
+ci
+cir
+ci
+c
+
+c
+cr
+cri
+cris
+cris2
+cris21
+cris211
+cris21
+cris2
+cris
+cri
+cr
+c
+
+
+
+
+
+
+
+C
+C
+Cr
+Cri
+Cris
+Cris1
+Cris12
+Cris1
+Cris
+Cri
+Cr
+C
+
+
+
+
+C
+CR
+CRI
+
+CRIS
+C
+CR
+CRI
+CRIS
+CRI
+CR
+C
+
+
+A
+A
+Ae
+A
+Aw
+Awe
+Awes
+Aweso
+Awesom
+Awesome
+Awesome 
+Awesome 
+Awesome T
+Awesome T
+Awesome Te
+Awesome Tea
+Awesome Team
+Awesome Team 
+
+
+A
+A
+Aw
+Awe
+Awes
+Aweso
+Awesom
+Awesome
+Awesome 
+Awesome t
+Awesome t
+Awesome 
+Awesome T
+Awesome T
+Awesome Te
+Awesome Tea
+Awesome Team
+CRIS
+CRIS
+CRIS
+Awesome Team
+Awesome Team
+AWesome TEAM
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+awesome
+awesome
+AWESOME Team
+AWESOME Team
+Awesome Team
+
+
+
+Awesome TEAM
+Awesome TEAM
+Awesome TEAM
+Awesome team
+Awesome
+Awesome Team
+Awesome Team
+
+AwesomeTeam
+TEAM awesom
+Awesome TEAM
+Awesome 
+Awesome 
+Awesome TEAM
+Awesome Team
+Awesome
+{ user_id: 'admin', password: 'admin' }
+Connected to database as id 68921
+User: admin, logged in at 2024-02-22 10:03:53 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-22 10:04:25 
+{ user_id: 'as', password: 'as' }
+Connected to database as id 68923
+{ user_id: 'admin', password: 'adin' }
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-23 10:44:40 
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-23 10:47:52 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-23 10:57:34 
+{ user_id: 'Team1', password: 'Team1 ​ Username' }
+Error: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/opt/Hackathon/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/opt/Hackathon/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/opt/Hackathon/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    --------------------
+    at Pool.query (/opt/Hackathon/node_modules/mysql/lib/Pool.js:199:23)
+    at exports.login (/opt/Hackathon/auth.js:22:7)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at next (/opt/Hackathon/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/opt/Hackathon/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/opt/Hackathon/node_modules/express/lib/router/layer.js:95:5)
+    at /opt/Hackathon/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/opt/Hackathon/node_modules/express/lib/router/index.js:346:12)
+    at next (/opt/Hackathon/node_modules/express/lib/router/index.js:280:10)
+    at cors (/opt/Hackathon/node_modules/cors/lib/index.js:188:7) {
+  code: 'ER_CANT_AGGREGATE_2COLLATIONS',
+  errno: 1267,
+  sqlMessage: "Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='",
+  sqlState: 'HY000',
+  index: 0,
+  sql: "SELECT id, round_no, Otp_Verified, Role_ID, User_Name FROM mst_accnts WHERE User_Name = 'Team1' AND pass = 'Team1 ​ Username' AND Enabled = 1;"
+}
+{ user_id: 'Team1', password: 'Team1' }
+User: Team1, logged in at 2024-02-23 11:02:11 
+1085
+
+
+
+
+
+
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome
+
+
+
+
+
+
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Awsome Team
+Team
+Awesome Team
+Awesome 
+Awesome Team
+Awesome
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome 
+Awesome Team
+Awesome Team
+Awesome
+[ '123123123123' ]
+Awesome T
+Awesome Team
+Awesome Team
+Awesome
+Aw
+Awesome Team
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Aw
+Awesome
+Awesome Team
+Awesome Team
+Awesome Team
+
+
+
+
+null
+null
+
+null
+null
+null
+null
+
+
+
+
+
+
+
+Awesome Team
+Awesome Team
+
+
+
+Awesome Team
+Team
+Awesome Team
+Team
+Team
+Team
+Awesome Te
+Awesome Tem
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome 
+Awesome Team
+Awesome Team
+Awesome
+Awesome Team
+Awesome Team
+Team Verify 
+
+Team
+TeamWe
+text
+
+
+admin@example.com
+admin@example.com
+admin
+
+
+
+Connected to database as id 68925
+
+
+
+
+
+
+
+
+
+
+
+Connected to database as id 68928
+
+
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+
+null
+
+
+
+
+
+Aw
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome Team
+null
+Team
+
+
+Team
+Team
+Awesome Team
+
+Awesome Team
+Awesome
+Team
+Team
+Awesome Team
+Awesome
+Awesome
+Awesome Team
+Awesome
+Awesome Team
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+
+
+Awesome Team
+Connected to database as id 68931
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome Team
+Awesome Team
+Awesome Team
+null
+
+
+
+null
+
+null
+null
+[ '1085' ]
+[ '1085' ]
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome
+Awesome Team
+Awesome Team
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+null
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+null
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+null
+null
+[ '180' ]
+[ '180' ]
+null
+null
+null
+null
+null
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '1085' ]
+[ '180' ]
+[ '180' ]
+
+
+
+
+
+
+
+
+
+
+
+
+Awesome Team
+Awesome 
+Awesome 
+Awesome 
+Awesome
+Awesome
+
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+
+
+
+
+
+
+
+
+
+1085
+1085
+180
+
+180
+180
+180
+180
+1050
+1050
+
+179
+1061
+1085
+180
+180
+
+
+1085
+1085
+180
+
+180
+
+180
+
+180
+
+1085
+
+1085
+
+
+
+180
+
+180
+
+
+
+
+1085
+
+
+
+1085
+1085
+
+1085
+
+
+
+
+
+
+
+
+
+
+
+
+1085
+
+
+
+900
+
+
+900
+900
+900
+900
+
+
+
+
+
+
+
+
+
+1085
+
+
+
+
+
+Connected to database as id 68940
+
+
+
+
+
+
+
+
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+
+
+
+undefined
+undefined
+
+
+
+
+
+A
+A
+Awesome
+
+
+1085
+1085
+1085
+1085
+1085
+1085
+10
+1085
+1085
+180
+1085
+179
+179
+179
+179
+179
+179
+179
+179
+179
+179
+1085
+180
+179
+180
+180
+1061
+1050
+180
+180
+1085
+179
+1061
+Awesome 
+Awesome 
+18
+180
+1085
+1061
+179
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+Awesome
+1050
+1085
+1050
+
+1050
+180
+
+Awesome Team
+Awesome Team
+undefined
+undefined
+180
+
+
+Connected to database as id 68943
+1085
+179
+1061
+180
+Awesome Team
+CRIS
+CRIS
+
+
+
+
+179
+1050
+1061
+1085
+1085
+180
+179
+1061
+
+
+1085
+1085
+1085
+180
+
+1085
+170
+179
+1061
+180
+
+
+
+
+CRIS
+CRIS
+Connected to database as id 68944
+180
+1085
+1061
+1061
+1050
+CRIS
+cris
+1085
+180
+179
+1061
+CRIS
+1085
+179
+180
+1061
+1085
+17
+17
+179
+180
+1061
+cris
+{ user_id: 'cris', password: 'temp' }
+{ user_id: 'Cris', password: 'temp' }
+{ user_id: 'cris', password: 'temp' }
+{ user_id: 'cris', password: 'cris' }
+User: cris, logged in at 2024-02-28 10:25:58 
+{ user_id: 'cris', password: 'temp' }
+cris
+1085
+1061
+180
+179
+TEAM
+TEAM
+TEAM
+{ user_id: 'TEAM', password: 'TEMP' }
+User: TEAM, logged in at 2024-02-28 10:30:40 
+{ user_id: 'admin', password: 'ADMIN' }
+User: admin, logged in at 2024-02-28 10:35:55 
+{ user_id: 'tname', password: 'temp' }
+{ user_id: 'tname', password: 'temp' }
+{ user_id: 'ad', password: 'ad' }
+
+179
+173
+
+1085
+108
+555
+123123
+12312344324
+555
+123123
+
+
+
+
+
+
+
+
+
+180
+
+180
+179
+1050
+1085
+newteam
+newteam
+180
+179
+1085
+1061
+180
+newteam
+180
+179
+undefined
+1061
+1085
+180
+180
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+180
+179
+1804
+undefined
+cris
+180
+179
+1085
+1061
+
+
+
+
+
+Awesome Team
+Awesome
+Awesome
+1085
+180
+179
+1061
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-28 14:49:38 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-28 14:50:42 
+Awesome
+Awesome
+Awesome Team
+180
+179
+{ user_id: 'Team', password: 'temp' }
+User: Team, logged in at 2024-02-28 15:11:04 
+{ user_id: 'cris', password: 'emp' }
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-28 15:11:19 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-28 15:11:49 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-28 15:12:23 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-28 15:12:58 
+
+
+CRIS
+team
+Team
+Team
+TEAM
+180
+{ user_id: 'ad', password: 'ad' }
+
+
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+Server started at http://localhost:443
+Connected to database as id 68966
+results 0
+Connected to database as id 68967
+Server started at http://localhost:443
+Connected to database as id 68968
+results 0
+Connected to database as id 68969
+results 1
+results 1
+
+Connected to database as id 68971
+CRIS
+{ user_id: 'ADMIN', password: 'ADMIN' }
+User: ADMIN, logged in at 2024-02-29 08:38:46 
+cris
+
+
+
+
+
+
+
+
+
+cris
+cristEAM
+CRIS TEAM
+CRIS TEAM
+CRIS TEAM
+CRIS TEAM
+CRIS TEAM
+CRIS TEAM
+CRIS TEAM
+
+
+CR
+CRIS
+CRIS
+CRIS
+
+
+CRIS
+CRIS
+CRIS
+
+
+
+
+
+
+
+cris
+cris
+cris
+cris
+cris
+cris
+cris
+cris
+cristeam
+cris
+wa
+Awesome Team
+Awesome Team
+Awesome Team
+Awesome
+cris
+cris
+team
+cris
+crisTeam
+crisTeam
+Name
+Awesome Team
+rr
+rr
+rr
+admin
+No team found with the given name.
+cris
+Email sent successfully: <58fa197a-1115-28ad-d530-8720ade66b5e@cris.org.in>
+rr
+CSIR
+cris
+Email sent successfully: <a164e5b9-20d0-bc7e-00f3-6197cc3c6591@cris.org.in>
+CSIR
+tea
+tea
+tea
+tea
+cris
+cris
+cris
+cris
+cris
+cr
+cr
+cr
+cr
+cr
+cr
+Server started at http://localhost:443
+RR
+Connected to database as id 68977
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 09:36:39 
+cris
+Email sent successfully: <4c93b17c-97d8-9b9c-8099-f8486c88aea0@cris.org.in>
+crisTeam
+crisTeam
+crisTeam
+cris
+cris
+cris r
+awesome
+Caw
+awesome
+awesomeas
+awesome Team
+Server started at http://localhost:443
+Connected to database as id 68994
+cris
+crisTeam
+crisTeam
+cris
+cris tEAM
+cRIS
+TN
+{ user_id: 'cris', password: 'team' }
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 10:47:21 
+cris
+cris Team
+cris
+cris Team
+Server started at http://localhost:443
+{ user_id: 'cris', password: 'temp' }
+Connected to database as id 69003
+User: cris, logged in at 2024-02-29 11:25:57 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 11:36:58 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 11:38:01 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 11:39:29 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 11:43:38 
+Server started at http://localhost:443
+232485
+cris
+OTP sent successfully: 232485
+Connected to database as id 69008
+4
+Connected to database as id 69009
+Email sent successfully!
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 11:58:49 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:21:32 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:22:53 
+470520
+cris
+OTP sent successfully: 470520
+4
+Email sent successfully!
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:28:40 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:30:53 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:31:11 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:33:20 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:34:27 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:38:03 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-29 12:40:11 
+{ user_id: 'cris', password: 'TEMP' }
+User: cris, logged in at 2024-02-29 12:40:18 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:40:38 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:41:17 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:44:57 
+{ user_id: 'cris', password: 'TEMP' }
+User: cris, logged in at 2024-02-29 12:46:47 
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 12:47:04 
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 12:47:20 
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 12:47:32 
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 12:47:49 
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 12:48:35 
+Server started at http://localhost:443
+{ user_id: 'cris', password: 'temp' }
+Connected to database as id 69011
+User: cris, logged in at 2024-02-29 12:49:46 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:50:45 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 12:51:34 
+Connected to database as id 69012
+387947
+cris
+OTP sent successfully: 387947
+4
+Email sent successfully!
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 13:02:11 
+747237
+cris
+OTP sent successfully: 747237
+4
+Email sent successfully!
+{ user_id: 'cris', password: 'tmep' }
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 13:03:31 
+{ user_id: 'ad', password: 'ad' }
+{ user_id: 'ad', password: 'ad' }
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 13:08:26 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 13:08:41 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 13:08:57 
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 13:17:13 
+results 1
+results 1
+results 1
+results 0
+results 1
+results 0
+results 0
+results 0
+results 0
+results 0
+results 0
+results 0
+results 0
+cris
+crisTeam
+cris
+cris
+crisTeam
+results 0
+wa
+results 0
+wa
+wa
+wa
+wa
+wa
+wa
+wa
+wa
+wa
+wa
+wa
+wa
+results 0
+results 1
+wa
+results 0
+results 1
+results 1
+results 1
+wa
+results 0
+results 0
+results 1
+results 1
+results 1
+results 0
+results 0
+results 1
+results 1
+results 1
+results 0
+results 0
+results 0
+wa
+results 0
+results 0
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-29 14:21:45 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-29 14:22:00 
+results 0
+results 0
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 14:42:28 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-29 14:44:33 
+Server started at http://localhost:443
+Connected to database as id 69013
+cris
+results 0
+Connected to database as id 69014
+results 0
+results 0
+results 0
+cris
+641295
+cris
+OTP sent successfully: 641295
+4
+mohanty.d@hotmail.com
+hpewebdev@gmail.com
+sridhar94@hotmail.com
+chaudhary.kailash@cris.org.in
+Connected to database as id 69015
+4
+Email sent successfully!
+Email sent successfully!
+{ user_id: 'cris', password: 'temp' }
+User: cris, logged in at 2024-02-29 14:51:13 
+results 1
+results 1
+results 1
+{ user_id: 'CRIS', password: 'TEMP' }
+User: CRIS, logged in at 2024-02-29 14:58:05 
+Server started at http://localhost:443
+341491
+cris
+OTP sent successfully: 341491
+Connected to database as id 69016
+4
+Connected to database as id 69017
+Email sent successfully!
+Server started at http://localhost:443
+HPEWATeam
+Connected to database as id 69018
+results 0
+Connected to database as id 69019
+results 1
+results 1
+results 0
+results 0
+results 0
+HPEWATeam
+733984
+HPEWATeam
+OTP sent successfully: 733984
+4
+hpewebdev@gmail.com
+pandeysadhveepandey@gmail.com
+chander.mohan@hpe.com
+chaudhary.kailash@cris.org.in
+Connected to database as id 69020
+4
+Email sent successfully!
+Email sent successfully!
+{ user_id: 'HPEWATEAM', password: 'TEMP' }
+User: HPEWATEAM, logged in at 2024-02-29 15:15:30 
+{ user_id: 'admin', password: 'admin' }
+User: admin, logged in at 2024-02-29 15:24:25 
+Server started at http://localhost:443
+{ user_id: 'HPEWATEAM', password: 'temp' }
+Connected to database as id 69021
+User: HPEWATEAM, logged in at 2024-02-29 15:45:38 
+709114
+HPEWATeam
+OTP sent successfully: 709114
+4
+Connected to database as id 69022
+Email sent successfully!
+Server started at http://localhost:443
